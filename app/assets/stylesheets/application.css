@@ -4,12 +4,16 @@
 *= require main.scss
 
 *= require fontello/css/fontello.css
+
 *= require magnific-popup/magnific-popup.css
 *= require owl-carousel/owl.carousel.css
-*= require animations.css
 *= require owl-carousel/owl.transitions.css
 *= require hover/hover-min.css
-*= require typography-default.css
+
+*= require rs-plugin/css/settings.css
+*= require morphext/morphext.css
+
+
 
 
 

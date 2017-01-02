@@ -27,10 +27,23 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
   </head>
-  <body>
+
+    <!-- body classes:  -->
+  <!-- "boxed": boxed layout mode e.g. <body class="boxed"> -->
+  <!-- "pattern-1 ... pattern-9": background patterns for boxed layout mode e.g. <body class="boxed pattern-1"> -->
+  <!-- "transparent-header": makes the header transparent and pulls the banner to top -->
+  <!-- "gradient-background-header": applies gradient background to header -->
+  <!-- "page-loader-1 ... page-loader-6": add a page loader to the page (more info @components-page-loaders.html) -->
+
+   <body class="no-trans front-page transparent-header  ">
+
+    <!-- move this to the bottom once remove js home page -->
+    <%= javascript_include_tag 'application' %>
+
     <%= render 'shared/navbar' %>
     <%= render 'shared/flashes' %>
     <%= yield %>
-    <%= javascript_include_tag 'application' %>
+    <%= render 'shared/footer' %>
+
   </body>
 </html>

@@ -1,76 +1,93 @@
-<div class="navbar-wagon">
-  <!-- Logo -->
-  <%= link_to root_path, class: "navbar-wagon-brand" do %>
-    <%= image_tag "logo.png" %>
-  <% end %>
+    <!-- page wrapper start -->
+    <!-- ================ -->
+    <div class="page-wrapper">
 
-  <!-- Right Navigation -->
-  <div class="navbar-wagon-right hidden-xs hidden-sm">
+      <!-- header-container start -->
+      <div class="header-container">
+        <!-- header start -->
+        <!-- classes:  -->
+        <!-- "fixed": enables fixed navigation mode (sticky menu) e.g. class="header fixed clearfix" -->
+        <!-- "dark": dark version of header e.g. class="header dark clearfix" -->
+        <!-- "full-width": mandatory class for the full-width menu layout -->
+        <!-- "centered": mandatory class for the centered logo layout -->
+        <!-- ================ -->
+        <header class="header  fixed    clearfix">
 
-    <!-- Search form -->
-    <form action="" class="navbar-wagon-search">
-      <input type="text" class="navbar-wagon-search-input" placeholder="Search something">
-      <button type="submit" class="navbar-wagon-search-btn">
-        <i class="fa fa-search"></i>
-      </button>
-    </form>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 ">
+                <!-- header-left start -->
+                <!-- ================ -->
+                <div class="header-left clearfix">
 
-    <!-- Different navigation if login or not -->
-    <% if user_signed_in? %>
+                  <!-- logo -->
+                  <div id="logo" class="logo">
+                    <a href="index.html"><img id="logo_img" src="assets/logo_light_blue.png" alt="The Project"></a>
+                  </div>
 
-      <!-- Notification -->
-      <%= link_to "#", class: "navbar-wagon-item navbar-wagon-link" do %>
-        <div class="badge-container">
-          <i class="fa fa-envelope-o"></i>
-          <div class="badge badge-blue">3</div>
-        </div>
-      <% end %>
+                  <!-- name-and-slogan -->
+                  <div class="site-slogan">
+                    Multipurpose HTML5 Template
+                  </div>
 
-      <!-- Profile picture and dropdown -->
-      <div class="navbar-wagon-item">
-        <div class="dropdown">
-          <%= image_tag "http://placehold.it/30x30", class: "avatar dropdown-toggle", id: "navbar-wagon-menu", "data-toggle" => "dropdown" %>
-          <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-            <li>
-              <%= link_to "#" do %>
-                <i class="fa fa-user"></i> <%= t(".profile", default: "Profile") %>
-              <% end %>
-            </li>
-            <li>
-              <%= link_to "#" do %>
-                <i class="fa fa-home"></i>  <%= t(".profile", default: "Home") %>
-              <% end %>
-            </li>
-            <li>
-              <%= link_to destroy_user_session_path, method: :delete do %>
-                <i class="fa fa-sign-out"></i>  <%= t(".sign_out", default: "Log out") %>
-              <% end %>
-            </li>
-          </ul>
-        </div>
+                </div>
+                <!-- header-left end -->
+
+              </div>
+              <div class="col-md-9">
+
+                <!-- header-right start -->
+                <!-- ================ -->
+                <div class="header-right clearfix">
+                  <!-- main-navigation start -->
+                  <!-- classes: -->
+                  <!-- "onclick": Makes the dropdowns open on click, this the default bootstrap behavior e.g. class="main-navigation onclick" -->
+                  <!-- "animated": Enables animations on dropdowns opening e.g. class="main-navigation animated" -->
+                  <!-- "with-dropdown-buttons": Mandatory class that adds extra space, to the main navigation, for the search and cart dropdowns -->
+                  <!-- ================ -->
+                  <div class="main-navigation animated">
+
+                    <!-- navbar start -->
+                    <!-- ================ -->
+                    <nav class="navbar navbar-default" role="navigation">
+                      <div class="container-fluid">
+
+                        <!-- Toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                          </button>
+                        </div>
+
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+                          <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#banner">Home</a></li>
+                            <li><a href="#features">Features</a></li>
+                            <li><a href="#demo">Demo</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#timeline">Timeline</a></li>
+                            <li><a href="#footer">Contact</a></li>
+                          </ul>
+                        </div>
+
+                      </div>
+                    </nav>
+                    <!-- navbar end -->
+
+                  </div>
+                  <!-- main-navigation end -->
+                </div>
+                <!-- header-right end -->
+
+              </div>
+            </div>
+          </div>
+
+        </header>
+        <!-- header end -->
       </div>
-
-    <% else %>
-
-      <!-- Login text link -->
-      <%= link_to t(".sign_in", default: "Login"), new_user_session_path, class: "navbar-wagon-item navbar-wagon-link" %>
-
-    <% end %>
-
-    <!-- Button (call-to-action) -->
-    <%= link_to t(".top_call_to_action", default: "Post stuff"), "#", class: "navbar-wagon-item navbar-wagon-button btn" %>
-  </div>
-
-  <!-- Dropdown list appearing on mobile only -->
-  <div class="navbar-wagon-item hidden-md hidden-lg">
-    <div class="dropdown">
-      <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
-      <ul class="dropdown-menu dropdown-menu-right navbar-wagon-dropdown-menu">
-        <li><a href="#">Some mobile link</a></li>
-        <li><a href="#">Other one</a></li>
-        <li><a href="#">Other one</a></li>
-      </ul>
-    </div>
-  </div>
-</div>
-
+      <!-- header-container end -->

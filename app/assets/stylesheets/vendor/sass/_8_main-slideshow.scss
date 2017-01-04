@@ -113,9 +113,19 @@
   font-weight: 300;
 }
 
+// custom
+
+.respira_medium_dark {
+  font-size: 24px;
+  color: $gray-dark;
+  font-weight: 300;
+}
+
+//
+
 .xlarge_dark {
   font-size: 68px;
-  font-family: $font-family-raleway;
+  // font-family: $font-family-raleway;
   font-weight: 400;
   color: $gray-dark;
   line-height: 1.2;
@@ -123,7 +133,7 @@
 
 .large_dark {
   font-size: 42px;
-  font-family: $font-family-raleway;
+  // font-family: $font-family-raleway;
   color: $gray-dark;
   line-height: 1.2;
 }

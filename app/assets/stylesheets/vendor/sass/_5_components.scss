@@ -97,8 +97,8 @@ fieldset[disabled] .btn-default {
 .dark {
   .btn-default {
     color: $white;
-    background-color: rgba($black, 0.2);
-    border-color: rgba($black, 0.1);
+    background-color: #21bb9d !important;
+    border-color: #21bb9d !important;
   }
 
   .btn-default .badge {
@@ -2239,8 +2239,8 @@ fieldset[disabled] .form-control {
   padding: 15px;
   bottom: 0px;
   left: 0;
-  right: 0px;
-  background-color: rgba(30, 30, 30, 0.5);
+  // right: 0px;
+  // background-color: rgba(30, 30, 30, 0.5);
   overflow: hidden;
   @include opacity(0);
   @include transition(all ease-in-out 0.25s);

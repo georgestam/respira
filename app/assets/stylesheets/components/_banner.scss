@@ -1,0 +1,106 @@
+.banner {
+
+  color: white;
+  text-align: left;
+  height: 95vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover;
+  display: flex;
+  align-items: center !important;
+  justify-content: left;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.4)
+}
+
+.banner-arrow {
+
+  position: absolute;
+  bottom: 30px;
+
+}
+
+.banner-content {
+  margin-left: 50px;
+}
+
+.banner h1 {
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+
+  margin-top: 30px;
+  font-size: 45px !important;
+  line-height: 75px;
+}
+.banner p {
+
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+
+
+  // margin-top: 45px;
+  font-size: 30px;
+  line-height: 37px;
+}
+
+
+.banner-small {
+
+  color: white;
+  text-align: center;
+  height: 70vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover ;
+  // background-position: right 0px bottom -50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-small h1 {
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+
+  margin-top: 60%;
+  font-size: 50px;
+  line-height: 75px;
+}
+.banner-small p {
+
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+
+
+  font-size: 30px;
+  line-height: 37px;
+}
+
+
+
+.banner-small-no-center {
+
+  color: white;
+  text-align: center;
+  height: 400px;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover ;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner-small-no-center h1 {
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+
+  margin-top: 60%;
+  font-size: 50px;
+  line-height: 75px;
+}
+.banner-small-no-center p {
+
+  font-weight: lighter;
+  color: rgba(255, 255, 255, 0.7);
+
+
+  font-size: 30px;
+  line-height: 37px;
+}

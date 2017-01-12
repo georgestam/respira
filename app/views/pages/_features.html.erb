@@ -1,5 +1,29 @@
 <div id="features"> </div>
 
+    <!-- section start -->
+          <!-- ================ -->
+        <section class="section dark-bg clearfix">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="call-to-action text-center">
+                  <div class="row">
+                    <div class="col-sm-8">
+                      <h1 class="title">Don't Miss Out Our Updates</h1>
+                      <p>Get notified when it's released!</p>
+                    </div>
+                    <div class="col-sm-4">
+                      <br>
+                      <p><a href="#footer" class="btn btn-lg btn-default btn-animated">Subscribe<i class="fa fa-arrow-right pl-20"></i></a></p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- section end -->
+
 
 
 <section class="pv-30 padding-bottom-clear clearfix">
@@ -22,7 +46,9 @@
                 <div class="col-sm-4">
                   <div class="image-box style-2 mb-20 shadow bordered light-gray-bg text-center">
                     <div class="overlay-container">
-                      <img src="http://res.cloudinary.com/georgestam/image/upload/v1483551805/respira/wearable.png" alt="">
+
+                    <%= cl_image_tag("respira/wearable.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
+
                       <div class="overlay-to-top">
                         <p class="small margin-clear"><em> Respira is a virtual coach which is with you 24/7 </em>  </p>
                       </div>
@@ -38,7 +64,8 @@
                 <div class="col-sm-4">
                   <div class="image-box style-2 mb-20 shadow bordered light-gray-bg text-center">
                     <div class="overlay-container">
-                      <img src="http://res.cloudinary.com/georgestam/image/upload/v1483551810/respira/time_graph.jpg" alt="">
+                      <%= cl_image_tag("respira/time_graph.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
+
                       <div class="overlay-to-top">
                         <p class="small margin-clear"><em>We ensure that you use appropriate pausing and have enough air in the lungs</em></p>
                       </div>
@@ -54,7 +81,8 @@
                 <div class="col-sm-4">
                   <div class="image-box style-2 mb-20 shadow bordered light-gray-bg text-center">
                     <div class="overlay-container">
-                      <img src="http://res.cloudinary.com/georgestam/image/upload/v1483611131/respira/build.jpg" alt="">
+                      <%= cl_image_tag("respira/build.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
+
                       <div class="overlay-to-top">
                         <p class="small margin-clear"><em>Your optimum breathing rate should be less than 7 breaths per minute in relaxation</em></p>
                       </div>

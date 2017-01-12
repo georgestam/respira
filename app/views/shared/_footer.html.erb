@@ -83,7 +83,7 @@
                       </div>
                       <div class="col-md-6">
                         <div class="footer-content">
-                          <h2 class="title">Subscribe</h2>
+
                           <div class="alert alert-success hidden" id="MessageSent2">
                             We have received your message, we will contact you very soon.
                           </div>
@@ -108,6 +108,10 @@
                             </div> -->
                             <input type="submit" value="Subscribe" class="btn btn-lg btn-default">
                             <p><a href="#footer" class="btn btn-lg btn-default btn-animated">Subscribe<i class="fa fa-arrow-right pl-20"></i></a></p>
+                            <%= link_to "Get Started", new_user_session_path, :class => "btn btn-lg btn-default btn-animated" %>
+                            <%= link_to "", :class => "btn btn-lg btn-default btn-animated" do %>
+                              Subscribe <i class="fa fa-arrow-right pl-20"></i>
+                            <% end %>
                           </form>
                         </div>
                       </div>

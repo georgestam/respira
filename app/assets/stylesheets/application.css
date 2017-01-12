@@ -12,6 +12,7 @@
 
 *= require rs-plugin/css/settings.css
 *= require morphext/morphext.css
+*= require animate/animate.css
 
 
 

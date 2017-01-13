@@ -81,7 +81,7 @@
                           <div class="alert alert-danger hidden" id="MessageNotSent2">
                             Oops! Something went wrong please refresh the page and try again.
                           </div>
-                          <div id="footer-form">
+                          <footer id="footer-form">
 
 
 
@@ -97,8 +97,8 @@
 
                                          <%#= f.input :password, disabled: true, input_html: { value: '12345678' } %>
 
-                                         <%= f.input :name, label: false, placeholder: 'Name', required: true, autofocus: true %>
-                                         <%= f.input :email, label: false, placeholder: 'Email', required: true, autofocus: true %>
+                                         <%= f.input :name, label: false, placeholder: 'Name', required: true %>
+                                         <%= f.input :email, label: false, placeholder: 'Email', required: true %>
                                          <%= f.hidden_field :password, value: '12345678' %>
                                          <%= f.hidden_field :password_confirmation, value: '12345678' %>
 
@@ -109,7 +109,7 @@
 
                                     </div>
 
-                          </div>
+                          </footer>
                         </div>
                       </div>
                     </div>

@@ -4,9 +4,9 @@ class PagesController < ApplicationController
 
   def index
     @user = User.new
-    # if current_user
-    #   current_user.destroy
-    # end
+    if current_user
+      current_user.destroy
+    end
 
 
 

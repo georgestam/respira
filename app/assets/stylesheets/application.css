@@ -3,8 +3,6 @@
 *= require_self
 *= require main.scss
 
-*= require fontello/css/fontello.css
-
 *= require magnific-popup/magnific-popup.css
 *= require owl-carousel/owl.carousel.css
 *= require owl-carousel/owl.transitions.css

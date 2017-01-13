@@ -9,7 +9,7 @@
 
 admin = User.new({
 
-    email: "respira@respira.io",
+    email: "speak@respira.io",
     password: "password",
     name: "jordi"
     # admin: true

@@ -1438,33 +1438,7 @@
 		//-----------------------------------------------
 		if($("#contact-form").length>0) {
 			$("#contact-form").validate({
-				submitHandler: function(form) {
-					$('.submit-button').button("loading");
-					$.ajax({
-						type: "POST",
-						url: "php/email-sender.php",
-						data: {
-							"name": $("#contact-form #name").val(),
-							"email": $("#contact-form #email").val(),
-							"subject": $("#contact-form #subject").val(),
-							"message": $("#contact-form #message").val()
-						},
-						dataType: "json",
-						success: function (data) {
-							if (data.sent == "yes") {
-								$("#MessageSent").removeClass("hidden");
-								$("#MessageNotSent").addClass("hidden");
-								$(".submit-button").removeClass("btn-default").addClass("btn-success").prop('value', 'Message Sent');
-								$("#contact-form .form-control").each(function() {
-									$(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
-								});
-							} else {
-								$("#MessageNotSent").removeClass("hidden");
-								$("#MessageSent").addClass("hidden");
-							}
-						}
-					});
-				},
+
 				errorPlacement: function(error, element) {
 					error.insertBefore( element );
 				},
@@ -1518,34 +1492,7 @@
 
 		if($("#contact-form-with-recaptcha").length>0) {
 			$("#contact-form-with-recaptcha").validate({
-				submitHandler: function(form) {
-					$('.submit-button').button("loading");
-					$.ajax({
-						type: "POST",
-						url: "php/email-sender-recaptcha.php",
-						data: {
-							"name": $("#contact-form-with-recaptcha #name").val(),
-							"email": $("#contact-form-with-recaptcha #email").val(),
-							"subject": $("#contact-form-with-recaptcha #subject").val(),
-							"message": $("#contact-form-with-recaptcha #message").val(),
-							"g-recaptcha-response": $("#g-recaptcha-response").val()
-						},
-						dataType: "json",
-						success: function (data) {
-							if (data.sent == "yes") {
-								$("#MessageSent").removeClass("hidden");
-								$("#MessageNotSent").addClass("hidden");
-								$(".submit-button").removeClass("btn-default").addClass("btn-success").prop('value', 'Message Sent');
-								$("#contact-form-with-recaptcha .form-control").each(function() {
-									$(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
-								});
-							} else {
-								$("#MessageNotSent").removeClass("hidden");
-								$("#MessageSent").addClass("hidden");
-							}
-						}
-					});
-				},
+
 				errorPlacement: function(error, element) {
 					error.insertBefore( element );
 				},
@@ -1599,33 +1546,7 @@
 
 		if($("#footer-form").length>0) {
 			$("#footer-form").validate({
-				submitHandler: function(form) {
-					$('.submit-button').button("loading");
-					$.ajax({
-						type: "POST",
-						url: "php/email-sender.php",
-						data: {
-							"name": $("#footer-form #name2").val(),
-							"email": $("#footer-form #email2").val(),
-							"subject": "Message from contact form",
-							"message": $("#footer-form #message2").val()
-						},
-						dataType: "json",
-						success: function (data) {
-							if (data.sent == "yes") {
-								$("#MessageSent2").removeClass("hidden");
-								$("#MessageNotSent2").addClass("hidden");
-								$(".submit-button").removeClass("btn-default").addClass("btn-success").prop('value', 'Message Sent');
-								$("#footer-form .form-control").each(function() {
-									$(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
-								});
-							} else {
-								$("#MessageNotSent2").removeClass("hidden");
-								$("#MessageSent2").addClass("hidden");
-							}
-						}
-					});
-				},
+
 				errorPlacement: function(error, element) {
 					error.insertAfter( element );
 				},
@@ -1674,34 +1595,7 @@
 		if($("#sidebar-form").length>0) {
 
 			$("#sidebar-form").validate({
-				submitHandler: function(form) {
-					$('.submit-button').button("loading");
-					$.ajax({
-						type: "POST",
-						url: "php/email-sender.php",
-						data: {
-							"name": $("#sidebar-form #name3").val(),
-							"email": $("#sidebar-form #email3").val(),
-							"subject": "Message from FAQ page",
-							"category": $("#sidebar-form #category").val(),
-							"message": $("#sidebar-form #message3").val()
-						},
-						dataType: "json",
-						success: function (data) {
-							if (data.sent == "yes") {
-								$("#MessageSent3").removeClass("hidden");
-								$("#MessageNotSent3").addClass("hidden");
-								$(".submit-button").removeClass("btn-default").addClass("btn-success").prop('value', 'Message Sent');
-								$("#sidebar-form .form-control").each(function() {
-									$(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
-								});
-							} else {
-								$("#MessageNotSent3").removeClass("hidden");
-								$("#MessageSent3").addClass("hidden");
-							}
-						}
-					});
-				},
+
 				errorPlacement: function(error, element) {
 					error.insertAfter( element );
 				},
@@ -1748,34 +1642,7 @@
 
 		if($("#rsvp").length>0) {
 			$("#rsvp").validate({
-				submitHandler: function(form) {
-					$('.submit-button').button("loading");
-					$.ajax({
-						type: "POST",
-						url: "php/email-sender.php",
-						data: {
-							"name": $("#rsvp #name").val(),
-							"email": $("#rsvp #email").val(),
-							"guests": $("#rsvp #guests").val(),
-							"subject": "RSVP",
-							"events": $("#rsvp #events").val()
-						},
-						dataType: "json",
-						success: function (data) {
-							if (data.sent == "yes") {
-								$("#MessageSent").removeClass("hidden");
-								$("#MessageNotSent").addClass("hidden");
-								$(".submit-button").removeClass("btn-default").addClass("btn-success").prop('value', 'Message Sent');
-								$("#rsvp .form-control").each(function() {
-									$(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
-								});
-							} else {
-								$("#MessageNotSent").removeClass("hidden");
-								$("#MessageSent").addClass("hidden");
-							}
-						}
-					});
-				},
+
 				errorPlacement: function(error, element) {
 					error.insertAfter( element );
 				},

@@ -19,6 +19,7 @@ gem 'autoprefixer-rails'
 
 gem 'cloudinary'
 gem 'fontello_rails_converter'
+gem 'raygun4ruby'
 
 
 

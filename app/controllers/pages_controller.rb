@@ -1,12 +1,12 @@
 class PagesController < ApplicationController
 
-  skip_before_action :authenticate_user!, only: []
+  skip_before_action :authenticate_user!, only: [:index]
 
   def index
     @user = User.new
-    # if current_user
-    #   current_user.destroy
-    # end
+    if current_user
+      current_user.destroy
+    end
 
 
 

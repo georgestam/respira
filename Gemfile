@@ -22,6 +22,7 @@ gem 'fontello_rails_converter'
 gem 'raygun4ruby'
 
 gem 'gibbon'
+gem 'validates_email_format_of'
 
 
 

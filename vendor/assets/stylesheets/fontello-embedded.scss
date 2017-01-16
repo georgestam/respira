@@ -21,34 +21,34 @@
   }
 }
 */
- 
+
  %icon-base {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
+
   display: inline-block;
   text-decoration: inherit;
   width: 1em;
   margin-right: .2em;
   text-align: center;
   /* opacity: .8; */
- 
+
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
-     
+
   /* fix buttons height, for twitter bootstrap */
   line-height: 1em;
- 
+
   /* Animation center compensation - margins should be symmetric */
   /* remove if not needed */
   margin-left: .2em;
- 
+
   /* you can be more comfortable with increased icons size */
   /* font-size: 120%; */
- 
+
   /* Uncomment for 3D effect */
   /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
 }
@@ -1052,7 +1052,7 @@
 %icon-airfield:before { @extend %icon-base; content: '\ebe5'; } /* '' */
 %icon-airport:before { @extend %icon-base; content: '\ebe6'; } /* '' */
 %icon-art-gallery:before { @extend %icon-base; content: '\ebe7'; } /* '' */
-%icon-bar:before { @extend %icon-base; content: '\ebe8'; } /* '' */
+%icon-bar:before { @extend %icon-base; content: ''; } /* '' */
 %icon-baseball:before { @extend %icon-base; content: '\ebe9'; } /* '' */
 %icon-basketball:before { @extend %icon-base; content: '\ebea'; } /* '' */
 %icon-beer-2:before { @extend %icon-base; content: '\ebeb'; } /* '' */

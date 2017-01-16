@@ -999,7 +999,7 @@
 .icon-airfield:before { content: '\ebe5'; } /* '' */
 .icon-airport:before { content: '\ebe6'; } /* '' */
 .icon-art-gallery:before { content: '\ebe7'; } /* '' */
-.icon-bar:before { content: '\ebe8'; } /* '' */
+.icon-bar:before {  } /* '' */
 .icon-baseball:before { content: '\ebe9'; } /* '' */
 .icon-basketball:before { content: '\ebea'; } /* '' */
 .icon-beer-2:before { content: '\ebeb'; } /* '' */

@@ -128,13 +128,48 @@
             <div class="col-md-6 space-bottom">
 
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe src="https://player.vimeo.com/video/191140085" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                <p><a href="https://vimeo.com/191140085">Respira Prototype</a> from <a href="https://vimeo.com/user46527374">Respira</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/naURFZwQYSk" frameborder="0" allowfullscreen></iframe>
               </div>
             </div>
           </div>
           </div>
+          
+          <!-- section -->
+          <!-- ================ -->
+          <section class="pv-30 padding-bottom-clear">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 col-md-offset-2">
+                <h2 class="text-center"> <strong> Protoype</strong></h2>
+                <div class="separator"></div>
+                <p class="large text-center">We would need to develop several prototypes to improve the performance and decrease considerably its overall size. </p>
+                <p class="text-center"> Final size would be around 10% of the current size. We estimate that the price of the final product would be around $100 per unit. 
+                </p>
+                <br>
+              </div>
+            </div>
+          </div>
+          <div class="space-bottom">
+            <div class="owl-carousel carousel">
+              <div class="image-box text-center">
+                <%= cl_image_tag("respira/belt_only.jpg", :angle=>90, :class => "style_image", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
+              </div>
+              <div class="image-box  text-center">
+                <%= cl_image_tag("respira/KnipselRESPIRA.png", :class => "style_image", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
+                <div class="overlay-container">
+      
+                  
+                </div>
+              </div>
+              <div class="image-box shadow text-center">
+                <div class="overlay-container">
+                  <%= cl_image_tag("respira/belt_only.jpg") %>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          </section>
 
           <!-- section start -->
           <!-- ================ -->
@@ -161,7 +196,7 @@
           <!-- section end -->
 
 
-
+        
 
 
 

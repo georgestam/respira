@@ -104,7 +104,7 @@
                                          <%= f.hidden_field :password_confirmation, value: '12345678' %>
 
 
-                                        <%= f.button :submit, 'Subscribe', class: "btn btn-lg btn-default btn-animated" %>
+                                        <%= f.button :submit, 'Subscribe', class: "btn btn-lg btn-default btn-animated", id: "register" %>
 
                                       <% end %>
 
@@ -147,3 +147,15 @@
 
             </footer>
             <!-- footer end -->
+            
+            
+  
+            <script type="text/javascript">
+            $( '#register' ).click(function() {
+            fbq('track', 'CompleteRegistration');
+            });
+            </script>
+            
+        
+      
+

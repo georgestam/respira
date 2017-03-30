@@ -19,7 +19,7 @@
                       </a>
                     </h4>
                   </div>
-                  <div id="collapseOne" class="panel-collapse collapse in">
+                  <div id="collapseOne" class="panel-collapse collapse">
                     <div class="panel-body">
 
                       Respira is a wearable breathing, heart-rate and speech monitoring device to help people who stutter gain fluency. <br><br>
@@ -114,7 +114,7 @@
                       </a>
                     </h4>
                   </div>
-                  <div id="collapseSix" class="panel-collapse collapse">
+                  <div id="collapseSix" class="panel-collapse collapse in ">
                     <div class="panel-body">
                       Our goal is to help people who stutter to gain fluency and to provide data to enable systematic research on stuttering.
 
@@ -128,7 +128,7 @@
             <div class="col-md-6 space-bottom">
 
               <div class="embed-responsive embed-responsive-16by9">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/naURFZwQYSk" frameborder="0" allowfullscreen></iframe>
+                <%= cl_image_tag("respira/R-4.png", :class => "", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
               </div>
             </div>
           </div>
@@ -152,13 +152,15 @@
           <div class="container">
             <div class="row text-centre">
               <div class="col-xs-12 col-sm-4">
-                <%= cl_image_tag("respira/belt_only.jpg", :class => "", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
+                <%= cl_image_tag("respira/belt_only.jpg", :class => "", :client_hints=>true, :transformation=>[{:width=>2500, :height=>1666, :dpr=>"auto", :gravity=>"", :crop=>"fill"}]) %>
               </div>
               <div class="col-xs-12 col-sm-4">
-                <%= cl_image_tag("respira/KnipselRESPIRA.png", :class => "style_image", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
+                <div class="embed-responsive embed-responsive-16by9 margin-top-bottom">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/naURFZwQYSk" frameborder="0" allowfullscreen></iframe>
+                </div>
               </div>
-              <div class="col-xs-12 col-sm-4">
-                <%= cl_image_tag("respira/R-1.jpg", :class => "", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
+              <div class="col-xs-12 col-sm-4" style="margin-bottom:20px">
+                <%= cl_image_tag("respira/R-1.jpg", :class => "", :client_hints=>true, :transformation=>[{:width=>2500, :height=>1666, :dpr=>"auto", :gravity=>"", :crop=>"fill"}]) %>
               </div>
             </div>
           </div>

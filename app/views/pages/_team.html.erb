@@ -10,7 +10,7 @@
             
             <div class="row grid-space-10">
 
-              <div class="col-sm-4 col-sm-push-2">
+              <div class="col-sm-4">
                 <div class="team-member image-box  text-center">
                   <div class="overlay-container overlay-visible">
                     <%= image_tag "team/lewagon-jordi.jpg", class:"team_pic" %>
@@ -33,10 +33,10 @@
                 </div>
               </div>
 
-              <div class="col-sm-4 col-sm-push-2">
+              <div class="col-sm-4">
                 <div class="team-member image-box  text-center">
                   <div class="overlay-container overlay-visible">
-                     <%= image_tag "team/marcos.jpg", class:"team_pic" %>
+                     <%= image_tag "team/marcos.jpg", class:"team_pic"  %>
                     <div class="overlay-bottom">
                       <ul class="social-links circle dark margin-clear">
 
@@ -50,6 +50,29 @@
                     <small>Aerospace Engineer (MEng, PhD)</small>
                     <div class="separator mt-10"></div>
                     <p class="small margin-clear">Energetic, analytical & result driven PhD, passionate about technology & science, I enjoy working between development and commercialization.</p>
+
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-sm-4">
+                <div class="team-member image-box  text-center">
+                  <div class="overlay-container overlay-visible">
+                     <%= cl_image_tag "rakan", class:"team_pic", :client_hints=>true, :transformation=>[{:width=>400, :height=>400, :gravity=>"face", :radius=>"max", :crop=>"crop"},
+  {:width=>200, :crop=>"scale"}] %>
+                    <div class="overlay-bottom">
+                      <ul class="social-links circle dark margin-clear">
+
+                        <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/in/rakan-alotaibi-7653302a/"><i class="fa fa-linkedin"></i></a></li>
+
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="body">
+                    <h3 class="margin-clear">Rakan AlOtaibi</h3>
+                    <small>Mechanical Engineer & Entrepreneur</small>
+                    <div class="separator mt-10"></div>
+                    <p class="small margin-clear">Intellectually curious, Dynamic and proactive engineer with an entrepreneur mind Founder of <a href="http://www.starfishproject.ae/en/home/">Starfish Project UAE</a>.</p>
 
                   </div>
                 </div>

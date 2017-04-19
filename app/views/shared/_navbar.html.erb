@@ -11,31 +11,33 @@
         <!-- "full-width": mandatory class for the full-width menu layout -->
         <!-- "centered": mandatory class for the centered logo layout -->
         <!-- ================ -->
-        <header class="header  fixed    clearfix">
+        <header class="header  fixed  clearfix">
           
 
-          <div class="container">
+          <div class="" style="padding: 0px 50px 0px 50px !important;">
             <div class="row">
-              <div class="col-md-3 ">
+              <div class="col-xs-12 col-md-4">
                 <!-- header-left start -->
                 <!-- ================ -->
                 <div class="header-left clearfix">
 
                   <!-- logo -->
-                  <div id="logo" class="navbar-wagon-brand smooth-scroll">
-                    <a href="#banner"><img id="logo_img" src="https://res.cloudinary.com/georgestam/image/upload/v1484237645/respira/green.png" alt="Respira"></a>
-                  </div>
-
-                  <!-- name-and-slogan -->
-                  <div class="site-slogan">
-
-                  </div>
+                  <ul class="nav navbar-languages", style="float: left !important">
+                    <li>
+                      <div id="logo" class="navbar-wagon-brand smooth-scroll">
+                        <a href="#banner"><img id="logo_img" src="https://res.cloudinary.com/georgestam/image/upload/v1484237645/respira/green.png" alt="Respira"></a>
+                      </div>
+                    </li>
+                    <li> <%= link_to "Español", url_for( :locale => 'es'), class:"" %> </li>
+                    <li> <%= link_to "English", url_for( :locale => 'en'), class:"" %> </li>
+                    <li> <%= link_to "العَرَبِيَّة‎‎", url_for( :locale => 'ea'), class:"" %> </li>
+                  </ul>
 
                 </div>
                 <!-- header-left end -->
 
               </div>
-              <div class="col-md-9">
+              <div class="col-xs-12 col-md-8">
 
                 <!-- header-right start -->
                 <!-- ================ -->
@@ -81,7 +83,7 @@
 
                           </ul>
                         
-                          
+  
                         </div>
                         
 

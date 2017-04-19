@@ -8,9 +8,9 @@
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
-                <h2 class="text-center"> <strong>Pause, Breathe, Speak, Repeat.</strong></h2>
+                <h2 class="text-center"> <strong> <%= t '.features_moto' %> </strong></h2>
                 <div class="separator"></div>
-                <p class="large text-center">Track and change in real time your speaking and breathing habits.</p>
+                <p class="large text-center"><%= t '.features_subtitle' %> </p>
               </div>
             </div>
           </div>
@@ -25,14 +25,14 @@
                     <%= cl_image_tag("respira/wearable.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
 
                       <div class="overlay-to-top">
-                        <p class="small margin-clear"><em> Respira is a virtual coach which is with you 24/7 </em>  </p>
+                        <p class="small margin-clear"><em> <%= t '.feature_hidden_1' %> </em>  </p>
                       </div>
                     </div>
                     <div class="body">
-                      <h3>Wearable</h3>
+                      <h3><%= t '.wearable' %> </h3>
                       <div class="separator"></div>
                       <p>
-                      Comfortable belt around the chest that tracks "your" breathing and speaking habits during the day, as well as other physiological indicators (heart rate + voice pitch).</p>
+                      <%= t '.feature_1' %> </p>
 
                     </div>
                   </div>
@@ -43,13 +43,14 @@
                       <%= cl_image_tag("respira/time_graph.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
 
                       <div class="overlay-to-top">
-                        <p class="small margin-clear"><em>We ensure that you use appropriate pausing and have enough air in the lungs</em></p>
+                        <p class="small margin-clear"><em> <%= t '.feature_hidden_2' %>  </em></p>
                       </div>
                     </div>
                     <div class="body">
-                      <h3>Real-time feedback</h3>
+                      <h3><%= t '.real-time_feedback' %> </h3>
                       <div class="separator"></div>
-                      <p>The belt vibrates whenever users do not use their full diaphragm to breathe, or speak too fast, during the day, so new correct habits are built.</p>
+                      <p>
+                        <%= t '.feature_2' %> </p>
 
                     </div>
                   </div>
@@ -60,13 +61,13 @@
                       <%= cl_image_tag("respira/build.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto"}]) %>
 
                       <div class="overlay-to-top">
-                        <p class="small margin-clear"><em> Your optimum breathing rate should be less than 7 breaths per minute in relaxation</em></p>
+                        <p class="small margin-clear"><em> <%= t '.feature_hidden_3' %> </em></p>
                       </div>
                     </div>
                     <div class="body">
-                      <h3>Build habits</h3>
+                      <h3> <%= t '.build-habits' %> </h3>
                       <div class="separator"></div>
-                      <p>  Record performance history and set targets to make your learning experience more comfortable or aggressive.</p>
+                      <p> <%= t '.feature_3' %> </p>
 
                     </div>
                   </div>

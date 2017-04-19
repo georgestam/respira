@@ -24,7 +24,7 @@ gem 'raygun4ruby'
 gem 'gibbon'
 gem 'validates_email_format_of'
 
-
+gem 'rails-i18n', '~> 5.0.0'
 
 
 group :development, :test do

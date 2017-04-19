@@ -160,6 +160,9 @@ GEM
       nokogiri (~> 1.6)
     rails-html-sanitizer (1.0.3)
       loofah (~> 2.0)
+    rails-i18n (5.0.3)
+      i18n (~> 0.7)
+      railties (~> 5.0)
     railties (5.0.0.1)
       actionpack (= 5.0.0.1)
       activesupport (= 5.0.0.1)
@@ -246,6 +249,7 @@ DEPENDENCIES
   pry-rails
   puma
   rails (= 5.0.0.1)
+  rails-i18n (~> 5.0.0)
   raygun4ruby
   redis
   sass-rails
@@ -259,4 +263,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.7
+   1.14.3

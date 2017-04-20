@@ -1,18 +1,9 @@
 class PagesController < ApplicationController
 
   skip_before_action :authenticate_user!, only: [:index]
+  before_action :destroy_user_if_current_user, only: [:index]
 
   def index
-    @user = User.new
-    if current_user
-      current_user.destroy
-    end
-
-
-
-    # x = [0,2,4,6]
-
-    # @result = pair_elements(x)
   end
 
   def create

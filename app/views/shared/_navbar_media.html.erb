@@ -25,7 +25,7 @@
                   <ul class="nav navbar-languages", style="float: left !important">
                     <li>
                       <div id="logo" class="navbar-wagon-brand smooth-scroll">
-                        <a href="#banner"><img id="logo_img" src="https://res.cloudinary.com/georgestam/image/upload/v1484237645/respira/green.png" alt="Respira"></a>
+                        <a href="/"><img id="logo_img" src="https://res.cloudinary.com/georgestam/image/upload/v1484237645/respira/green.png" alt="Respira"></a>
                       </div>
                     </li>
                     <li> <%= link_to "Español", url_for( :locale => 'es'), class:"" %> </li>
@@ -68,14 +68,10 @@
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
                           <ul class="nav navbar-nav navbar-right">
-                            <li><a href="#what"> <%= t '.summary' %></a></li>
-                            <li><a href="#features"> <%= t '.features' %> </a></li>
-                            <li><a href="#demo"> <%= t '.info' %> </a></li>
-                            <li><a href="#team"> <%= t '.team' %> </a></li>
-                            <li><a href="#timeline"> <%= t '.timeline' %> </a></li>
+                              <li> <%= link_to t(".home"), root_path, class: "navbar-wagon-item navbar-wagon-link" %> </li>
                             <li><a href="#footer"> <%= t '.contact' %> </a></li>
-                            <li> <%= link_to t(".blog"), articles_path, class: "navbar-wagon-item navbar-wagon-link" %> </li>
-                      
+                          
+                            
                               <li class="facebook"><a target="_blank" href="https://www.facebook.com/respira.io/"><i class="fa fa-facebook"></i></a></li>
                               <li class="linkedin"><a target="_blank" href="https://www.linkedin.com/company/respira.io"><i class="fa fa-linkedin"></i></a></li>
                               <li class="twitter"><a target="_blank" href="https://twitter.com/respirateam"><i class="fa fa-twitter"></i></a></li>

@@ -25,6 +25,7 @@ gem 'gibbon'
 gem 'validates_email_format_of'
 
 gem 'rails-i18n', '~> 5.0.0'
+gem 'ckeditor', '4.1.3'
 
 # add rails-admin for news posts
 gem 'remotipart', github: 'mshibuya/remotipart'

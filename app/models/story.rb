@@ -10,5 +10,9 @@ class Story < ApplicationRecord
   friendly_id :title, use: :slugged
                                   
   mount_uploader :photo, PhotoUploader
+  
+  def locale_enum
+     ['ea','en']
+  end
 
 end

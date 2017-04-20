@@ -4,9 +4,13 @@ RailsAdmin.config do |config|
     edit do
       field :title, :string
       field :description, :ck_editor
-      field :locale, :string
       field :private, :boolean
       field :photo, :carrierwave
+      field :locale, :enum do 
+        enum_method do
+          :locale_enum
+        end  
+      end
     end
   end
   
@@ -14,9 +18,13 @@ RailsAdmin.config do |config|
     edit do
       field :title, :string
       field :description, :ck_editor
-      field :locale, :string
       field :private, :boolean
       field :photo, :carrierwave
+      field :locale, :enum do 
+        enum_method do
+          :locale_enum
+        end  
+      end
     end
   end
   

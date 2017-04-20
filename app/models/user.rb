@@ -7,7 +7,7 @@ class User < ApplicationRecord
   validates :email, email_format: { message: "doesn't look like an email address" }
 
   after_create :send_welcome_email
-  after_create :subscribe_to_newsletter, if: :production? 
+  after_create :subscribe_to_newsletter
 
   private
 

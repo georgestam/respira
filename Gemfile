@@ -26,15 +26,6 @@ gem 'validates_email_format_of'
 
 gem 'rails-i18n', '~> 5.0.0'
 
-# add rails-admin for news posts
-gem 'remotipart', github: 'mshibuya/remotipart'
-gem 'rails_admin', '>= 1.0.0.rc'
-gem 'friendly_id', '~> 5.1.0'
-gem 'carrierwave', '~> 1.0'
-
-gem "pundit"
-
-gem 'faker', '~> 1.7'
 
 group :development, :test do
   gem 'binding_of_caller'

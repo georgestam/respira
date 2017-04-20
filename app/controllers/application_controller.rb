@@ -4,12 +4,20 @@ class ApplicationController < ActionController::Base
   
   before_action :set_locale
   
-  before_action :authenticate_user!
-  
   include Pundit
   
   after_action :verify_authorized, except: :index, unless: :skip_pundit?
   after_action :verify_policy_scoped, only: :index, unless: :skip_pundit?
+  
+  before_action :configure_permitted_parameters, if: :devise_controller?
+
+  def configure_permitted_parameters
+    # For additional fields in app/views/devise/registrations/new.html.erb
+    devise_parameter_sanitizer.permit(:sign_up, keys: [:name])
+
+    # For additional in app/views/devise/registrations/edit.html.erb
+    devise_parameter_sanitizer.permit(:account_update, keys: [:name])
+  end
   
   def skip_pundit? #  Pundit
     devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/
@@ -25,7 +33,9 @@ class ApplicationController < ActionController::Base
   
   def destroy_user_if_current_user
     if current_user
-      current_user.destroy
+      unless current_user.admin
+        current_user.destroy
+      end
     end
     @user = User.new
   end 

@@ -4,7 +4,7 @@ ea:
     demo:
       What_is_Respira?: What is respira?
       background: Background
-      cta: Take control of your breathing and speaking habits
+      cta: The Harder I Practice, the Luckier I Get.
       info_00: Respira is a wearable breathing, heart-rate and speech monitoring device
         to help people who stutter gain fluency.
       info_01: Respira provides real-time feedback on the user’s breathing and speaking
@@ -90,6 +90,7 @@ ea:
       time_6_p: Respira is planning to run a crowdfunding camping.
     what:
       crowdfunding: Crowdfunding campaign coming soon
+      cta1: Take control of your breathing and speaking habits
       get_notified: Get notified when it's released
       here: here
       subscribe: Subscribe
@@ -141,7 +142,7 @@ ea:
         also like to hear from people interested to get involved in the project (whatever
         your background) and/or willing to try our first prototypes.
       p7: Many thanks for joining us!
-      p8: The Respira Team
+      p8: The Respira Team.
   views:
     articles:
       index:

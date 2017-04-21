@@ -46,7 +46,11 @@
 								<div class="tab-content">
 									<div role="tabpanel" class="tab-pane fade in active" id="home">
                     <div class="embed-responsive embed-responsive-16by9">
+                      <% if I18n.locale == :ea  %>
+                      <iframe width="750" height="425" src="https://www.youtube.com/embed/Dj4nn4nZnc8" frameborder="0" allowfullscreen></iframe>
+                      <% else  %>
                       <iframe width="750" height="425" src="https://www.youtube.com/embed/UodA9XdKQkE" frameborder="0" allowfullscreen></iframe>
+                      <% end %>
                     </div>
 									</div>
 									<div role="tabpanel" class="tab-pane fade smooth-scroll" id="messages">

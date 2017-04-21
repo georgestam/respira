@@ -115,13 +115,37 @@ ea:
       footer_summary_3: Subscribe to the right to get updates!
       moto: We are what we repeatedly do. Excellence, then, is not an act, but a habit.
     navbar:
+      blog: Blog
       contact: Contact
       features: Features
       info: Info
       summary: Summary
       team: Team
       timeline: Timeline
+    navbar_media:
+      contact: Contact
+      home: Home
+  user_mailer:
+    welcome:
+      hello: Hello
+      p1: Thank you for registering with Respira!
+      p2: We would appreciate if you could share our project.
+      p3: Respira is a wearable breathing, heart-rate and speech monitoring device
+        to help people who stutter gain fluency.
+      p4: Fluent speakers find hard to deeply understand what a person who stutters
+        suffers each time that a speaking situation approaches. That's why we created
+        Respira, to help people to gain confidence, fluency and live a better life.
+      p5: More than 70 million (adult) people worldwide stutter, which is about 1%
+        of the population. Our mission is to make this 1% to live a better life.
+      p6: Please don't hesitate to ask anything by replying to this email. We would
+        also like to hear from people interested to get involved in the project (whatever
+        your background) and/or willing to try our first prototypes.
+      p7: Many thanks for joining us!
+      p8: The Respira Team
   views:
+    articles:
+      index:
+        articles: Articles
     shared:
       footer:
         email: Email

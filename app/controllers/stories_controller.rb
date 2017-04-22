@@ -1,7 +1,7 @@
 class StoriesController < ApplicationController
   
-  skip_before_action :authenticate_user!, only: [:index, :show]
-  before_action :destroy_user_if_current_user, only: [:index, :show]
+  skip_before_action :authenticate_user!, only: %i[index show]
+  before_action :destroy_user_if_current_user, only: %i[index show]
   
   def index
     @story = Story.all
@@ -14,6 +14,7 @@ class StoriesController < ApplicationController
   end
 
   private
+
   def story_params
     params.require(:story).permit(:title, :description, :locale, :photo, :photo_cache)
   end

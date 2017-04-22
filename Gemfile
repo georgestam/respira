@@ -1,21 +1,21 @@
 source 'https://rubygems.org'
 ruby '2.3.1'
 
-gem 'rails', '5.0.0.1'
-gem 'puma'
-gem 'pg'
+gem 'devise'
 gem 'figaro'
 gem 'jbuilder', '~> 2.0'
-gem 'devise'
+gem 'pg'
+gem 'puma'
+gem 'rails', '5.0.0.1'
 gem 'redis'
 
-gem 'sass-rails'
-gem 'jquery-rails'
-gem 'uglifier'
+gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
+gem 'jquery-rails'
+gem 'sass-rails'
 gem 'simple_form'
-gem 'autoprefixer-rails'
+gem 'uglifier'
 
 gem 'cloudinary'
 gem 'fontello_rails_converter'
@@ -24,27 +24,28 @@ gem 'raygun4ruby'
 gem 'gibbon'
 gem 'validates_email_format_of'
 
-gem 'rails-i18n', '~> 5.0.0'
 gem 'ckeditor', '4.1.3'
+gem 'rails-i18n', '~> 5.0.0'
 
 # add rails-admin for news posts
-gem 'remotipart', github: 'mshibuya/remotipart'
-gem 'rails_admin', '>= 1.0.0.rc'
-gem 'friendly_id', '~> 5.1.0'
 gem 'carrierwave', '~> 1.0'
+gem 'friendly_id', '~> 5.1.0'
+gem 'rails_admin', '>= 1.0.0.rc'
+gem 'remotipart', github: 'mshibuya/remotipart'
 
-gem "pundit"
+gem 'pundit', '~> 1.1'
 
 gem 'faker', '~> 1.7'
 
 group :development, :test do
-  gem 'binding_of_caller'
   gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'rubocop', '~> 0.48.1', require: false
 
+  gem 'listen', '~> 3.0.5'
   gem 'pry-byebug'
   gem 'pry-rails'
   gem 'spring'
-  gem 'listen', '~> 3.0.5'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
   gem "letter_opener"

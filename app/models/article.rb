@@ -2,7 +2,7 @@ class Article < ApplicationRecord
      
   extend FriendlyId
   
-  LANGUAGES = ['ea', 'en']
+  LANGUAGES = %w[ea en].freeze
   
   validates :title, :description, presence: true, length: { minimum: 10 }
   validates :locale,  inclusion: { in: LANGUAGES, allow_nil: false }
@@ -14,7 +14,7 @@ class Article < ApplicationRecord
   private
   
   def locale_enum
-     ['ea','en']
+     %w[ea en]
   end
 
 end

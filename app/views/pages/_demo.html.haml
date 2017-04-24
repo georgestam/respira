@@ -1,0 +1,98 @@
+#demo
+/ section start
+/ ================
+%section.section.clearfix
+  .container
+    .separator-2
+    .row
+      .col-md-6
+        / accordion start
+        / ================
+        #accordion.panel-group.collapse-style-1
+          .panel.panel-default
+            .panel-heading
+              %h4.panel-title
+                %a.collapsed{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseOne"}
+                  %i.fa.fa-question-circle-o.pr-10
+                  = t '.What_is_Respira?'
+            #collapseOne.panel-collapse.collapse
+              .panel-body
+                = t '.info_00'
+                %br/
+                %br/
+                = t '.info_01'
+          .panel.panel-default
+            .panel-heading
+              %h4.panel-title
+                %a.collapsed{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseTwo"}
+                  %i.fa.fa-road.pr-10
+                  = t '.background'
+            #collapseTwo.panel-collapse.collapse
+              .panel-body
+                = t '.info_1'
+          .panel.panel-default
+            .panel-heading
+              %h4.panel-title
+                %a.collapsed{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseThree"}
+                  %i.fa.fa-rocket.pr-10
+                  = t '.innovation'
+            #collapseThree.panel-collapse.collapse
+              .panel-body
+                = t '.info_2'
+                %br/
+                %br/
+                = t '.info_3'
+          .panel.panel-default
+            .panel-heading
+              %h4.panel-title
+                %a.collapsed{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseFour"}
+                  %i.fa.fa-area-chart.pr-10
+                  = t '.real-time'
+            #collapseFour.panel-collapse.collapse
+              .panel-body
+                = t '.info_4'
+          .panel.panel-default
+            .panel-heading
+              %h4.panel-title
+                %a.collapsed{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseFive"}
+                  %i.fa.fa-child.pr-10
+                  = t '.wearability'
+            #collapseFive.panel-collapse.collapse
+              .panel-body
+                = t '.info_5'
+          .panel.panel-default
+            .panel-heading
+              %h4.panel-title
+                %a.collapsed{"data-parent" => "#accordion", "data-toggle" => "collapse", :href => "#collapseSix"}
+                  %i.fa.fa-bullseye.pr-10
+                  = t '.our_goal'
+            #collapseSix.panel-collapse.collapse.in
+              .panel-body
+                = t '.info_6'
+        / accordion end
+      .col-md-6.space-bottom
+        .embed-responsive.embed-responsive-16by9
+          = cl_image_tag("respira/R-4.png", :class => "", :client_hints=>true, :transformation=>[{:dpr=>"auto"}])
+  .row
+    .col-xs-12.col-md-push-2.col-md-4
+      .style-2.mb-20.shadow.bordered.light-gray-bg.text-center
+        .overlay-container
+      
+    .col-xs-12.col-md-push-2.col-md-4
+      .image-box.style-2.mb-20.shadow.bordered.light-gray-bg.text-center
+        .overlay-container
+          
+  / section start
+  / ================
+  %section.section.dark-bg.clearfix
+    .container
+      .row
+        .col-md-12
+          .call-to-action.text-center
+            .row
+              .col-sm-12
+                %h1.title
+                  = t '.cta'
+                %p{:style => "font-style: italic;"} Gary Player
+                %p
+  / section end

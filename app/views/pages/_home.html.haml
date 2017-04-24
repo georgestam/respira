@@ -1,0 +1,68 @@
+:sass
+  .logo-font-respira
+    font-family: 'Maven Pro', sans-serif
+    color: white!important
+    font-size: 60px !important
+    text-transform: lowercase !important 
+
+
+#banner
+-# .banner{:style => "background-image: linear-gradient(210deg, rgba(0,101,168,0.1) 20%, rgba(0,36,61,0.5) 50%), url('#{cl_image_path("respira/banner.jpg", :client_hints=>true, :transformation=>[{:x=>1500, :y=>100, :width=>2000, :height=>1000, :dpr=>"auto", :crop=>"crop"}])}');"}
+-# .banner{:style => "background-image: linear-gradient(210deg, rgba(0,101,168,0.1) 20%, rgba(0,36,61,0.5) 50%), url('#{cl_image_path("respira/sky.jpg", :client_hints=>true, :transformation=>[{:x=>400, :y=>0, :dpr=>"auto", :crop=>"fill"}])}');"}
+.banner{:style => "background-image: linear-gradient(210deg, rgba(0,101,168,0.1) 20%, rgba(0,36,61,0.5) 50%), url('#{cl_image_path("respira/clouds.jpg", :client_hints=>true, :transformation=>[{:x=>0, :y=>0, :dpr=>"auto", :crop=>"fill"}])}');"}
+  
+  .banner-content
+    %h1.logo-font-respira.fadeInRightBig.animated respira
+    %p.normal.fadeInLeftBig.animated
+      = t '.subtitle_1'
+      %br/
+      = t '.subtitle_2'
+    %p
+      %a#btn-black.btn.btn-lg.btn-default.btn-animated{:href => "#footer"}
+        = t '.subscribe'
+        %i.fa.fa-arrow-right.pl-20
+  .col-md-12.text-center.banner-arrow
+    %a.btn.btn-lg.moving.smooth-scroll{:href => "#what"}
+      %i.icon-down-open-big
+      %i.icon-down-open-big
+      %i.icon-down-open-big
+
+
+/ section start
+/ ================
+%section.section.dark-bg.clearfix
+  .container
+    .row
+      .col-md-12
+        .call-to-action.text-center
+          .row
+            .col-sm-8
+              %h1.title
+                = t 'pages.what.cta1'
+              %p
+                = t 'pages.what.get_notified'
+                \!
+            .col-sm-4
+              %br/
+              %p
+                %a.btn.btn-lg.btn-default.btn-animated{:href => "#footer"}
+                  = t '.subscribe'
+                  %i.fa.fa-arrow-right.pl-20
+/ section end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

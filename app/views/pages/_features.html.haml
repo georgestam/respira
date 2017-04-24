@@ -1,0 +1,63 @@
+#features
+%section.pv-30.padding-bottom-clear.clearfix
+  .container
+    .row
+      .col-md-8.col-md-offset-2
+        %h2.text-center
+          %strong
+            = t '.features_moto'
+        .separator
+        %p.large.text-center
+          = t '.features_subtitle'
+  .container
+    %section.pv-30.padding-bottom-clear.clearfix
+      .container
+        .row
+          .col-sm-4
+            .image-box.style-2.mb-20.shadow.bordered.light-gray-bg.text-center
+              .overlay-container
+                = cl_image_tag("respira/shirt.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto", :height=>1350, :width=>2000, :y=>0, :x=>400, :crop=>"crop"}])
+                .overlay-to-top
+                  %p.small.margin-clear
+                    %em
+                      = t '.feature_hidden_1'
+              .body
+                %h3
+                  = t '.wearable'
+                .separator
+                %p
+                  = t '.feature_1'
+          .col-sm-4
+            .image-box.style-2.mb-20.shadow.bordered.light-gray-bg.text-center
+              .overlay-container
+                = cl_image_tag("respira/Natural.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto", :height=>1400, :width=>2000, :y=>-50, :x=>500, :crop=>"crop"}])
+                .overlay-to-top
+                  %p.small.margin-clear
+                    %em
+                      = t '.feature_hidden_2'
+              .body
+                %h3
+                  = t '.real-time_feedback'
+                .separator
+                %p
+                  = t '.feature_2'
+          .col-sm-4
+            .image-box.style-2.mb-20.shadow.bordered.light-gray-bg.text-center
+              .overlay-container
+                = cl_image_tag("respira/mobile.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto", :height=>1350, :width=>2000, :y=>100, :x=>150, :crop=>"crop"}])
+                .overlay-to-top
+                  %p.small.margin-clear
+                    %em
+                      = t '.feature_hidden_3'
+              .body
+                %h3
+                  = t '.build-habits'
+                .separator
+                %p
+                  = t '.feature_3'
+        %br/
+
+
+
+
+

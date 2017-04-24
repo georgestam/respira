@@ -101,8 +101,8 @@
 
                                          <%#= f.input :password, disabled: true, input_html: { value: '12345678' } %>
 
-                                         <%= f.input :name, label: I18n.t('views.shared.footer.name' ), placeholder: I18n.t('views.shared.footer.name' ), required: true %>
-                                         <%= f.input :email, label: I18n.t('views.shared.footer.email' ), placeholder: I18n.t('views.shared.footer.email' ), required: true %>
+                                         <%= f.input :name, label: false, placeholder: I18n.t('views.shared.footer.name' ), required: true %>
+                                         <%= f.input :email, label: false, placeholder: I18n.t('views.shared.footer.email' ), required: true %>
                                          <%= f.hidden_field :password, value: '12345678' %>
                                          <%= f.hidden_field :password_confirmation, value: '12345678' %>
 

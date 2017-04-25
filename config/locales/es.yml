@@ -9,26 +9,26 @@ es:
         ayudar a personas con tartamudez a mejorar su fluidez verbal. 
       info_01: Respira proporciona información en tiempo real de la respiración y patrones del habla del usuario
         reforzando conductas que reducen la posibilidad de tartamudeo. 
-        Performance history is recorded so the users can track their habits and fluency
-        improvement. In addition, anonymous information will be collected on a discretionary
-        basis, to enable a broader statistical research on stuttering and its causes.
-      info_1: Although there are no theories which fully explain the reasons behind
-        chronic stuttering, there are many demostrated psychological and cognitive
-        practices that have been shown to  help people who stutter (PWS) gain fluency.
-        These practices are taught in worldwide recognised courses for PWS such as
-        <a href="http://themcguireprogram.com">The McGuire Program</a>, and include
-        (but are not limited to) breathing with the diaphragm, limiting the words
-        spoken per breath (between 3 and 5), and acceptance of oneself as a PWS. Our
-        prototype, Respira, helps PWS to acquire and consolidate all of these habits
-        using a single wearable device. Respira conducts physiological measurements
-        and performs analysis in real time, allowing it to gently coach the user to
-        develop positive habits.
-      info_2: With the rise of the IoT and wearable technologies, we are not only
-        able to create breathing and speaking habits, but can also record and analyse
-        the physiological data and speaking tempo of PWS. This provides valuable real-time
-        information for the user to improve their fluency and the scope for fundamental
-        health science (in order to understand and control the mechanisms of chronic
-        stuttering).
+        Los datos se almancenan en un historial para que el usuario pueda medir su progreso y nivel de fluidez del habla.
+        El dispositivo también recogerá información de forma anónima que permitirá realizar estadísticas a gran escala,  
+        para profundizar en el estudio de las causas del tartamudeo.
+      info_1: A pesar de que no existen teorías que expliquen totalmente el origen del tartamudeo crónico,
+        existen diversas técnicas fisiológicas y cognitivas que han ayudado 
+        a personas con tartamudeo a mejorar su fluidez verbal.
+        Estas técnicas se enseñan en cursos mundialmente reconozidos para personas con tartamudeo como
+        <a href="http://themcguireprogram.com">The McGuire Program</a>, e incluyen
+        (entre otras) técnicas de respiración con el diafragma, limitar las palabras
+        pronunciadas por respiración (entre 3 y 5), y la aceptación de uno mismo como tartamudo. 
+        Nuestro prototipo Respira, ayuda a las personas con tartamudeo a adquirir y consolidar todos estos hábitos 
+        con el uso de un único dispositivo ponible. Respira realiza mediciones y análisis en tiempo real,  
+        proporcionando información al usuario para desarrollar hábitos positivos
+        
+      info_2: Gracias al auge del Innternet de las cosas y de la tecnología ponible, no solo
+        podremos conseguir óptimos hábitos de respiración y del habla, sino que obtendremos datos fisiológicos y de patrones de habla de
+        personas con tartamdeo. Esto proverá al usuario de datos clave 
+        en tiempo real para mejorar su fluidez y a la comunidad científica de valiosa información
+        para entender y controlar las causas del 
+        tartamudeo crónico.health science (in order to understand and control the mechanisms of chronic
       info_3: Respira is the first hardware product of its kind. Its main innovation
         resides in integrating the latest research on stuttering into an affordable
         device.

@@ -47,10 +47,9 @@ ea:
       innovation: Innovation
       our_goal: Our goal
       real-time: Real-time
-      subscribe: Subscribe
       wearability: Wearability
     features:
-      build-habits: Build-habits
+      build_habits: Build habits
       feature_1: Comfortable belt around the chest that tracks "your" breathing and
         speaking habits during the day, as well as other physiological indicators
         (heart rate + voice pitch).
@@ -89,11 +88,9 @@ ea:
       time_6_h2: Crowdfunding Campaign coming up!
       time_6_p: Respira is planning to run a crowdfunding camping.
     what:
-      crowdfunding: Crowdfunding campaign coming soon
       cta1: Take control of your breathing and speaking habits
       get_notified: Get notified when it's released
       here: here
-      subscribe: Subscribe
       what: What
       why: Why
       why_1: Why do we need your help?

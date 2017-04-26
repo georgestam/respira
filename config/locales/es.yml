@@ -3,7 +3,7 @@ es:
   pages:
     demo:
       What_is_Respira?: ¿Qué es Respira?
-      background: Background
+      background: Antecedentes
       cta: Cuanto más lo intento, mas suerte tengo.
       info_00: Respira es un dispositivo ponible que mide la respiración, las pulsaciones y otros aspectos relacionados con el habla para 
         ayudar a personas con tartamudez a mejorar su fluidez verbal. 
@@ -23,31 +23,31 @@ es:
         con el uso de un único dispositivo ponible. Respira realiza mediciones y análisis en tiempo real,  
         proporcionando información al usuario para desarrollar hábitos positivos
         
-      info_2: Gracias al auge del Innternet de las cosas y de la tecnología ponible, no solo
+      info_2: Gracias al auge del Internet de las cosas y de la tecnología ponible, no solo
         podremos conseguir óptimos hábitos de respiración y del habla, sino que obtendremos datos fisiológicos y de patrones de habla de
         personas con tartamdeo. Esto proverá al usuario de datos clave 
         en tiempo real para mejorar su fluidez y a la comunidad científica de valiosa información
         para entender y controlar las causas del 
-        tartamudeo crónico.health science (in order to understand and control the mechanisms of chronic
-      info_3: Respira is the first hardware product of its kind. Its main innovation
-        resides in integrating the latest research on stuttering into an affordable
-        device.
-      info_4: Speaking at the right speed and breathing correctly are practices that
-        have to be reinforced at all times until they become habits. Unfortunately,
-        this requires considerable discipline since people who stutter learn to speak
-        by many years of bad practice. The real-time feedback is critical to acquire
-        new breathing and pausing habits.
-      info_5: People who stutter do not stutter always, and therefore they tend to
-        use those new techniques only in difficult speaking situations, outside of
-        their comfort zone. However, these techniques are ineffective if only used
-        when fear is high. This is precisely why it is important to always wear the
-        device (in a comfortable manner), even in situations which are not critical.
-      info_6: Our goal is to help people who stutter to gain fluency and to provide
-        data to enable systematic research on stuttering.
-      innovation: Innovation
-      our_goal: Our goal
-      real-time: Real-time
-      wearability: Wearability
+        tartamudeo crónico.
+      info_3: Respira es el primer y único dispositivo de este tipo. La principal innovación de Respira
+        radica en la integración de los últimos resultados de la investigación acerca del tartamudeo
+        en un dispositivo de precio asequible.
+      info_4: Hablar a la velocidad adecuada y respirando correctamente, requiere de práctica continua hasta que se 
+       convierta en un hábito. Esto requiere una disciplina considerable ya que los malos hábitos del habla 
+        de personas con tartamudeo se han llevado a cabo durante años. 
+        El feedback en timepo real es fundamental
+       para adquirir nuevos hábitos de respiración y de pausa durante el habla. 
+      info_5: Las personas con tartamudeo, no siempre tartamudean. Por lo tanto, tienden a usar 
+        estas técnicas durante situaciones en las que se encuentran fuera de su zona de confort. 
+        Sin embargo, estas técnicas técnicas no son efectivas si solo se usan 
+        durante una situación que genera miedo y ansiedad. Por este motivo, es importante llevar el dispositivo
+        (de una manera cómoda), incluso en situaciones donde el usuario se encuentra a gusto.
+      info_6: Nuestra meta es ayudar a las personas con tartamudeo a incrementar su fluidez en el habla y recopilar
+       información para ayudar a una investigación sistemática acerca del tartamudeo. 
+      innovation: Innovación
+      our_goal: Nuestra meta
+      real-time: En tiempo real
+      wearability: Dispositivo ponible
     features:
       build_habits: Build habits
       feature_1: Comfortable belt around the chest that tracks "your" breathing and

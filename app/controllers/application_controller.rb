@@ -34,7 +34,7 @@ class ApplicationController < ActionController::Base
   def destroy_user_if_current_user
     if current_user
       unless current_user.admin
-        current_user.destroy
+        sign_out(current_user)
       end
     end
     @user = User.new

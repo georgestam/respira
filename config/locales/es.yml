@@ -3,7 +3,7 @@ es:
   pages:
     demo:
       What_is_Respira?: ¿Qué es Respira?
-      background: Background
+      background: Antecedentes
       cta: Cuanto más lo intento, mas suerte tengo.
       info_00: Respira es un dispositivo ponible que mide la respiración, las pulsaciones y otros aspectos relacionados con el habla para 
         ayudar a personas con tartamudez a mejorar su fluidez verbal. 
@@ -28,12 +28,12 @@ es:
         personas con tartamdeo. Esto proverá al usuario de datos clave 
         en tiempo real para mejorar su fluidez y a la comunidad científica de valiosa información
         para entender y controlar las causas del 
-        tartamudeo crónico.health science (in order to understand and control the mechanisms of chronic
-      info_3: Respira is the first hardware product of its kind. Its main innovation
-        resides in integrating the latest research on stuttering into an affordable
-        device.
-      info_4: Speaking at the right speed and breathing correctly are practices that
-        have to be reinforced at all times until they become habits. Unfortunately,
+        tartamudeo crónico.
+      info_3: Respira es el primer y único dispositivo de este tipo. La principal innovación de Respira
+        radica en la integración de los últimos resultados de la investigación acerca del tartamudeo
+        en un dispositivo de precio asequible.
+      info_4: Hablar a la velocidad adecuada y respirando correctamente, requiere de práctica continua hasta que se 
+       convierta en un hábito. Esto requiere
         this requires considerable discipline since people who stutter learn to speak
         by many years of bad practice. The real-time feedback is critical to acquire
         new breathing and pausing habits.

@@ -122,16 +122,15 @@ es:
       hello: Hola
       p1: ¡Gracias por registrate con respira!
       p2: Te agradeceríamos si pudieses propagar nuestro proyecto. 
-      p3: Respira es un dispositivi ponible que mide la respiración, ritmo cardiaco y patrones del habla
+      p3: Respira es un dispositivo ponible que mide la respiración, ritmo cardiaco y patrones del habla
         para ayudar a las personas con tartamudeo a conseguir fluidez verbal. 
-      p4: Fluent speakers find hard to deeply understand what a person who stutters
-        suffers each time that a speaking situation approaches. That's why we created
-        Respira, to help people to gain confidence, fluency and live a better life.
-      p5: More than 70 million (adult) people worldwide stutter, which is about 1%
-        of the population. Our mission is to make this 1% to live a better life.
-      p6: Please don't hesitate to ask anything by replying to this email. We would
-        also like to hear from people interested to get involved in the project (whatever
-        your background) and/or willing to try our first prototypes.
+      p4: Es difícil para las personas sin problemas de fluidez en el habla entender  
+        el sufrimiento de las peronas con tartamudeo cada vez que se aproxima una situación en la que tienen que hablar. Por eso, hemos creado
+        Respira, para ayudar a las personas con tartamudeo a desarriollar confianza, fluidez y vivir un avida más plena. 
+      p5: Más de 70 millones de personas tartamudea en todo el mundo. Un 1% de la población.
+        Nuestra misión es ayudar a mejorar las vidas de este 1%. 
+      p6: No dudes en ponerte en contacto con nosotros para cualquier duda o si estás interesado 
+        en formar parte de nuestro proyecto y/o probar nuestro prototipo
       p7: ¡Muchas gracias por unirte a nosotros!
       p8: El equipo de  Respira.
   views:

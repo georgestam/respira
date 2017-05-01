@@ -49,24 +49,22 @@ es:
       real-time: En tiempo real
       wearability: Dispositivo ponible
     features:
-      build_habits: Build habits
-      feature_1: Comfortable belt around the chest that tracks "your" breathing and
-        speaking habits during the day, as well as other physiological indicators
-        (heart rate + voice pitch).
-      feature_2: The belt vibrates whenever users do not use their full diaphragm
-        to breathe, or speak too fast, during the day, so new correct habits are built.
-      feature_3: Record performance history and set targets to make your learning
-        experience more comfortable or aggressive.
-      feature_hidden_1: Respira is a virtual coach which is with you 24/7
-      feature_hidden_2: We ensure that you use appropriate pausing and have enough
-        air in the lungs.
-      feature_hidden_3: Your optimum breathing rate should be less than 7 breaths
-        per minute in relaxation
-      features_moto: Pause, Breathe, Speak, Repeat.
-      features_subtitle: Track and change in real time your speaking and breathing
-        habits.
-      real-time_feedback: Real-time feedback
-      wearable: Wearable
+      build_habits: Desarrolla hábitos
+      feature_1: Cómoda cinta en el pecho que registra tu respiración y patrones de habla durante el día así como
+      otros indicadores fisiológicos (ritmo cardiaco + heart rate + tomo de voz).
+      feature_2: El dispositivo en el pecho vibra cuando el usuarion no usa todo el diafragma 
+      para respirar o habla muy deprisa a lo largo del día. De esta manera se construyen hábitos correctos.
+      feature_3: Registra tu progreso y fija objectivos para hacer tu ritmo de
+      aprendizaje más lento o agresivo.
+      feature_hidden_1: Respira es tu entrenador virtual que está a tu lado 24/7. 
+      feature_hidden_2: Nos aseguramos de que tomas pausas y tienes aire suficiente 
+      en los pulmones
+      feature_hidden_3: En reposo, tu ritmo de respiración ideal debería ser menor de 7 respiraciones pir minuto  
+      features_moto: Pausa, Respira, Habla, Repite.
+      features_subtitle: Sigue y cambia en tiempo real tus hábitos de habla
+      y respiración.
+      real-time_feedback: Feedback en tiempo real
+      wearable: Ponible
     home:
       subscribe: Subscribe
       subtitle_1: Digital coach for people who stutter

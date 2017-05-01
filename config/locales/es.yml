@@ -22,7 +22,6 @@ es:
         Nuestro prototipo Respira, ayuda a las personas con tartamudeo a adquirir y consolidar todos estos hábitos 
         con el uso de un único dispositivo ponible. Respira realiza mediciones y análisis en tiempo real,  
         proporcionando información al usuario para desarrollar hábitos positivos
-        
       info_2: Gracias al auge del Internet de las cosas y de la tecnología ponible, no solo
         podremos conseguir óptimos hábitos de respiración y del habla, sino que obtendremos datos fisiológicos y de patrones de habla de
         personas con tartamdeo. Esto proverá al usuario de datos clave 
@@ -51,18 +50,18 @@ es:
     features:
       build_habits: Desarrolla hábitos
       feature_1: Cómoda cinta en el pecho que registra tu respiración y patrones de habla durante el día así como
-      otros indicadores fisiológicos (ritmo cardiaco + heart rate + tomo de voz).
+        otros indicadores fisiológicos (ritmo cardiaco + heart rate + tomo de voz).
       feature_2: El dispositivo en el pecho vibra cuando el usuarion no usa todo el diafragma 
-      para respirar o habla muy deprisa a lo largo del día. De esta manera se construyen hábitos correctos.
+        para respirar o habla muy deprisa a lo largo del día. De esta manera se construyen hábitos correctos.
       feature_3: Registra tu progreso y fija objectivos para hacer tu ritmo de
-      aprendizaje más lento o agresivo.
+        aprendizaje más lento o agresivo.
       feature_hidden_1: Respira es tu entrenador virtual que está a tu lado 24/7. 
       feature_hidden_2: Nos aseguramos de que tomas pausas y tienes aire suficiente 
-      en los pulmones
+        en los pulmones
       feature_hidden_3: En reposo, tu ritmo de respiración ideal debería ser menor de 7 respiraciones pir minuto  
       features_moto: Pausa, Respira, Habla, Repite.
       features_subtitle: Sigue y cambia en tiempo real tus hábitos de habla
-      y respiración.
+        y respiración.
       real-time_feedback: Feedback en tiempo real
       wearable: Ponible
     home:
@@ -78,7 +77,7 @@ es:
       time_3_p: Creamos y probamos el primer prototipo, demostrando el concepto de Respira. 
       time_4_h2: Beca "Terence Barry"
       time_4_p: Concesión de una pequeña beca para apoyar a Respira en su investigación
-      de las causas y el tratamiento de la tartamudez
+        de las causas y el tratamiento de la tartamudez
       time_5_h2: Patentado
       time_5_p: El primer dispositivo de este tipo, Respira obtiene una patente (GB1701052.1)
       time_6_h2: Campaña de crowdfunding!

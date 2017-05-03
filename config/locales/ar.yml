@@ -1,2 +1,11 @@
 ---
 ar:
+  views:
+    articles:
+      index:
+        articles: Articles
+    shared:
+      footer:
+        email: Email
+        name: Name
+        subscribe: Subscribe

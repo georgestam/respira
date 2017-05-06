@@ -1,116 +1,76 @@
----
 es:
   pages:
     demo:
       What_is_Respira?: ¿Qué es Respira?
       background: Antecedentes
       cta: Cuanto más lo intento, mas suerte tengo.
-      info_00: Respira es un dispositivo ponible que mide la respiración, las pulsaciones y otros aspectos relacionados con el habla para 
-        ayudar a personas con tartamudez a mejorar su fluidez verbal. 
-      info_01: Respira proporciona información en tiempo real de la respiración y patrones del habla del usuario
-        reforzando conductas que reducen la posibilidad de tartamudeo. 
-        Los datos se almancenan en un historial para que el usuario pueda medir su progreso y nivel de fluidez del habla.
-        El dispositivo también recogerá información de forma anónima que permitirá realizar estadísticas a gran escala,  
-        para profundizar en el estudio de las causas del tartamudeo.
-      info_1: A pesar de que no existen teorías que expliquen totalmente el origen del tartamudeo crónico,
-        existen diversas técnicas fisiológicas y cognitivas que han ayudado 
-        a personas con tartamudeo a mejorar su fluidez verbal.
-        Estas técnicas se enseñan en cursos mundialmente reconozidos para personas con tartamudeo como
-        <a href="http://themcguireprogram.com">The McGuire Program</a>, e incluyen
-        (entre otras) técnicas de respiración con el diafragma, limitar las palabras
-        pronunciadas por respiración (entre 3 y 5), y la aceptación de uno mismo como tartamudo. 
-        Nuestro prototipo Respira, ayuda a las personas con tartamudeo a adquirir y consolidar todos estos hábitos 
-        con el uso de un único dispositivo ponible. Respira realiza mediciones y análisis en tiempo real,  
-        proporcionando información al usuario para desarrollar hábitos positivos
-      info_2: Gracias al auge del Internet de las cosas y de la tecnología ponible, no solo
-        podremos conseguir óptimos hábitos de respiración y del habla, sino que obtendremos datos fisiológicos y de patrones de habla de
-        personas con tartamdeo. Esto proverá al usuario de datos clave 
-        en tiempo real para mejorar su fluidez y a la comunidad científica de valiosa información
-        para entender y controlar las causas del 
-        tartamudeo crónico.
-      info_3: Respira es el primer y único dispositivo de este tipo. La principal innovación de Respira
-        radica en la integración de los últimos resultados de la investigación acerca del tartamudeo
-        en un dispositivo de precio asequible.
-      info_4: Hablar a la velocidad adecuada y respirando correctamente, requiere de práctica continua hasta que se 
-       convierta en un hábito. Esto requiere una disciplina considerable ya que los malos hábitos del habla 
-        de personas con tartamudeo se han llevado a cabo durante años. 
-        El feedback en timepo real es fundamental
-       para adquirir nuevos hábitos de respiración y de pausa durante el habla. 
-      info_5: Las personas con tartamudeo, no siempre tartamudean. Por lo tanto, tienden a usar 
-        estas técnicas durante situaciones en las que se encuentran fuera de su zona de confort. 
-        Sin embargo, estas técnicas técnicas no son efectivas si solo se usan 
-        durante una situación que genera miedo y ansiedad. Por este motivo, es importante llevar el dispositivo
-        (de una manera cómoda), incluso en situaciones donde el usuario se encuentra a gusto.
-      info_6: Nuestra meta es ayudar a las personas con tartamudeo a incrementar su fluidez en el habla y recopilar
-       información para ayudar a una investigación sistemática acerca del tartamudeo. 
+      info_00: Respira es un dispositivo ponible que mide la respiración, las pulsaciones y otros aspectos relacionados con el habla para ayudar a personas con tartamudez a mejorar su fluidez verbal.
+      info_01: Respira proporciona información de la respiración y patrones del habla del usuario en tiempo real,  animando conductas que reducen la posibilidad de tartamudeo. Los datos se almacenan en un historial para que el usuario pueda medir su progreso y nivel de fluidez. El dispositivo también recogerá información de forma anónima que permitirá realizar estadísticas a gran escala, para profundizar en el estudio de las causas del tartamudeo.
+      info_1: A pesar de que no existen teorías que expliquen totalmente el origen del tartamudeo crónico, existen diversas técnicas fisiológicas y cognitivas que han ayudado a personas con tartamudeo a mejorar su fluidez verbal. Estas técnicas se enseñan en cursos mundialmente reconocidos para personas con tartamudeo como <a href="http://themcguireprogram.com">The McGuire Program</a>, e incluyen (entre otros aspectos) técnicas de respiración con el diafragma, limitar las palabras pronunciadas por respiración (entre 3 y 5) y la aceptación de uno mismo como tartamudo. Nuestro prototipo Respira, ayuda a las personas con tartamudeo a adquirir y consolidar todos estos hábitos con el uso de un único dispositivo ponible. Respira realiza mediciones y análisis en tiempo real, proporcionando información al usuario para desarrollar hábitos positivos
+      info_2: Gracias al auge del Internet de las cosas y de la tecnología ponible, no solo podremos adquirir hábitos correctos de respiración y del habla, sino que obtendremos datos fisiológicos y de patrones de habla de personas con tartamudeo. Esto proveerá tanto al usuario de datos clave en tiempo real para mejorar su fluidez y a la comunidad científica de valiosa información para entender y controlar las causas del tartamudeo crónico.
+      info_3: Respira es el primer y único dispositivo de este tipo. La principal innovación de Respira radica en la integración de los últimos resultados de la investigación acerca del tartamudeo en un dispositivo de precio asequible.
+      info_4: Hablar a la velocidad adecuada y respirando correctamente, requiere una práctica continua para que se convierta en un hábito. Esto requiere una disciplina considerable ya que los malos hábitos del habla en personas con tartamudeo se han desarrollado durante años. El feedback en tiempo real es fundamental para adquirir nuevos hábitos de respiración y de pausa durante el habla.
+      info_5: Las personas con tartamudeo, no siempre tartamudean. Por lo tanto, tienden a usar estas técnicas durante situaciones en las que se encuentran fuera de su zona de confort. Sin embargo, estas técnicas técnicas no son efectivas si solo se usan durante una situación que genera miedo y ansiedad. Por este motivo, es importante llevar el dispositivo (de una manera cómoda), incluso en situaciones donde el usuario se encuentra a gusto.
+      info_6: Nuestra meta es ayudar a las personas con tartamudeo a incrementar su fluidez en el habla y recopilar información para facilitar una investigación sistemática acerca del tartamudeo.
       innovation: Innovación
       our_goal: Nuestra meta
       real-time: En tiempo real
       wearability: Dispositivo ponible
     features:
       build_habits: Desarrolla hábitos
-      feature_1: Cómoda cinta en el pecho que registra tu respiración y patrones de habla durante el día así como
-        otros indicadores fisiológicos (ritmo cardiaco + heart rate + tomo de voz).
-      feature_2: El dispositivo en el pecho vibra cuando el usuarion no usa todo el diafragma 
-        para respirar o habla muy deprisa a lo largo del día. De esta manera se construyen hábitos correctos.
-      feature_3: Registra tu progreso y fija objectivos para hacer tu ritmo de
-        aprendizaje más lento o agresivo.
-      feature_hidden_1: Respira es tu entrenador virtual que está a tu lado 24/7. 
-      feature_hidden_2: Nos aseguramos de que tomas pausas y tienes aire suficiente 
-        en los pulmones
-      feature_hidden_3: En reposo, tu ritmo de respiración ideal debería ser menor de 7 respiraciones pir minuto  
+      feature_1: Cómoda cinta en el pecho que registra tu respiración y patrones de habla durante el día, así como otros indicadores fisiológicos (ritmo cardíaco +  tono de voz).
+      feature_2: El dispositivo en el pecho vibra cuando el usuario no usa todo el diafragma para respirar o habla muy deprisa. De esta manera se desarrollan hábitos correctos.
+      feature_3: Registra tu progreso y fija objetivos y haz tu ritmo de aprendizaje más lento o agresivo.
+      feature_hidden_1: Respira es un entrenador virtual que está contigo 24/7
+      feature_hidden_2: Nos aseguramos de que tomas pausas en el habla y de que tienes aire suficiente en los pulmones.
+      feature_hidden_3: En reposo, tu ritmo de respiración ideal debería ser menor de 7 respiraciones por minuto
       features_moto: Pausa, Respira, Habla, Repite.
-      features_subtitle: Sigue y cambia en tiempo real tus hábitos de habla
-        y respiración.
+      features_subtitle: Sigue y cambia en tiempo real tus hábitos de habla y respiración.
       real-time_feedback: Feedback en tiempo real
       wearable: Ponible
     home:
-      subscribe: Subscribe
+      subscribe: Subscríbete
       subtitle_1: Entrenador virtual para personas con tartamudeo
-      subtitle_2: Registra loe patrones de habla y respiración para cambiar vidas
+      subtitle_2: Registra los patrones de habla y respiración para cambiar vidas
     timeline:
       time_1_h2: Nace la idea de Respira
       time_1_p: Jordi y Marcos conciben la idea de Respira.
-      time_2_h2: Creación del equipo 
-      time_2_p: Dimitri y Rowan se unen al equipo. Empezamos a trabajar en el prototipo. 
+      time_2_h2: Creación del equipo
+      time_2_p: Dimitri y Rowan se unen al equipo. Empezamos a trabajar en el prototipo.
       time_3_h2: Primer prototipo
-      time_3_p: Creamos y probamos el primer prototipo, demostrando el concepto de Respira. 
+      time_3_p: Creamos y probamos el primer prototipo, demostrando el concepto de Respira.
       time_4_h2: Beca "Terence Barry"
-      time_4_p: Concesión de una pequeña beca para apoyar a Respira en su investigación
-        de las causas y el tratamiento de la tartamudez
+      time_4_p: Concesión de una pequeña beca para apoyar a Respira en su investigación de las causas y el tratamiento de la tartamudez
       time_5_h2: Patentado
       time_5_p: El primer dispositivo de este tipo, Respira obtiene una patente (GB1701052.1)
       time_6_h2: Campaña de crowdfunding!
-      time_6_p: Respira está planeando una campaña de crowfunding. 
+      time_6_p: Respira está planeando una campaña de crowfunding.
     what:
       cta1: Toma el control de tu respiración y de tu habla
       get_notified: Notifícame cuando Respira esté a la venta
       here: Aquí
       what: Qué?
       why: Por qué?
-      why_1: Por qué necesitamos tu ayuda? 
-      why_2: Más de 70 millones de personas tartamudea en todo el mundo. Un 1% de la población.
-        Nuestra misión es ayudar a mejorar las vidas de este 1%. 
-      why_3: Ayúdanos y subscribeté 
-      why_4: Demostrarás al mundo que las personas con tratumedeo tienen voz y que 
-        merece la pena apoyar este proyecto!
-      why_5: "(You can see"
-      why_6: algunos de las experiencias que han cambiado la vida de personas con tartamudeo que atendieron
-        cursos que usan la técnicas integradas en Respira.
+      why_1: Por qué necesitamos tu ayuda?
+      why_2: Más de 70 millones de personas tartamudea en todo el mundo. Un 1% de la población. Nuestra misión es ayudar a mejorar las vidas de este 1%.
+      why_3: Ayúdanos y subscribeté
+      why_4: Demostrarás al mundo que las personas con tratumedeo tienen voz y que merece la pena apoyar este proyecto!
+      why_5: "(Consulta"
+      why_6: algunos de las experiencias que han cambiado la vida de personas con tartamudeo que atendieron cursos que usan la técnicas integradas en Respira)
   shared:
     footer:
       cta1: Notifícame cuando Respira esté a la venta
-      cta2: No pierdas más tiempo 
-      footer_summary_1: Más de 70 millones de personas tartamudea en todo el mundo. Un 1% de la población.
-        Nuestra misión es ayudar a mejorar las vidas de este 1%. 
-      footer_summary_2: Mándanos un email si quieres hablar con nosotros o apoyar nuestro proyecto. 
-      footer_summary_3: Subscribete a la derecha para recibir notificaciones! 
-      moto: Somos lo que hacemos contínuamente. La excelencia por tanto, no es un hecho sino un hábito. 
+      cta2: No pierdas más tiempo
+      footer_summary_1: Más de 70 millones de personas tartamudean en todo el mundo, un 1% de la población. Nuestra misión es ayudar a mejorar las vidas de este 1%.
+      footer_summary_2: Mándanos un email si quieres hablar con nosotros o apoyar nuestro proyecto.
+      footer_summary_3: Subscribete a la derecha para recibir notificaciones!
+      moto: Somos lo que hacemos continuamente. La excelencia por tanto, no es un hecho sino un hábito.
+    navbar:
       blog: Blog
       contact: Contacto
       features: Características
       info: Información
-      summary: Resúmen
+      summary: Resumen
       team: Equipo
       timeline: Calendario
     navbar_media:
@@ -120,16 +80,11 @@ es:
     welcome:
       hello: Hola
       p1: ¡Gracias por registrate con respira!
-      p2: Te agradeceríamos si pudieses propagar nuestro proyecto. 
-      p3: Respira es un dispositivo ponible que mide la respiración, ritmo cardiaco y patrones del habla
-        para ayudar a las personas con tartamudeo a conseguir fluidez verbal. 
-      p4: Es difícil para las personas sin problemas de fluidez en el habla entender  
-        el sufrimiento de las peronas con tartamudeo cada vez que se aproxima una situación en la que tienen que hablar. Por eso, hemos creado
-        Respira, para ayudar a las personas con tartamudeo a desarriollar confianza, fluidez y vivir un avida más plena. 
-      p5: Más de 70 millones de personas tartamudea en todo el mundo. Un 1% de la población.
-        Nuestra misión es ayudar a mejorar las vidas de este 1%. 
-      p6: No dudes en ponerte en contacto con nosotros para cualquier duda o si estás interesado 
-        en formar parte de nuestro proyecto y/o probar nuestro prototipo
+      p2: Te agradeceríamos si pudieses compartir información acerca de nuestro proyecto.
+      p3: Respira es un dispositivo ponible que mide la respiración, ritmo cardíaco y patrones del habla para ayudar a las personas con tartamudeo a conseguir fluidez verbal.
+      p4: Es difícil para las personas sin problemas de fluidez en el habla entender el sufrimiento de las personas con tartamudeo cada vez que se aproxima una situación en la que tienen que hablar. Por eso hemos creado Respira, para ayudar a las personas con tartamudeo a desarrollar confianza, fluidez y vivir una vida más plena.
+      p5: Más de 70 millones de personas tartamudea en todo el mundo. Un 1% de la población. Nuestra misión es ayudar a mejorar las vidas de este 1%.
+      p6: No dudes en ponerte en contacto con nosotros para cualquier duda o si estás interesado en formar parte de nuestro proyecto y/o probar nuestro prototipo
       p7: ¡Muchas gracias por unirte a nosotros!
       p8: El equipo de  Respira.
   views:
@@ -140,4 +95,4 @@ es:
       footer:
         email: Email
         name: Nombre
-        subscribe: Subscribete
+        subscribe: Subscríbete

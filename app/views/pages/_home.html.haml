@@ -9,18 +9,14 @@
 #banner
 -# .banner{:style => "background-image: linear-gradient(210deg, rgba(0,101,168,0.1) 20%, rgba(0,36,61,0.5) 50%), url('#{cl_image_path("respira/banner.jpg", :client_hints=>true, :transformation=>[{:x=>1500, :y=>100, :width=>2000, :height=>1000, :dpr=>"auto", :crop=>"crop"}])}');"}
 -# .banner{:style => "background-image: linear-gradient(210deg, rgba(0,101,168,0.1) 20%, rgba(0,36,61,0.5) 50%), url('#{cl_image_path("respira/sky.jpg", :client_hints=>true, :transformation=>[{:x=>400, :y=>0, :dpr=>"auto", :crop=>"fill"}])}');"}
-.banner{:style => "background-image: linear-gradient(210deg, rgba(0,101,168,0.1) 20%, rgba(0,36,61,0.5) 50%), url('#{cl_image_path("respira/clouds.jpg", :client_hints=>true, :transformation=>[{:x=>0, :y=>0, :dpr=>"auto", :crop=>"fill"}])}');"}
-  
+.banner{:style => "background-image: linear-gradient(210deg, rgba(0,101,273,0.1) 44%, rgba(0,36,61,0.5) 71%), url('#{cl_image_path("respira/clouds.jpg", :client_hints=>true, :transformation=>[{:x=>0, :y=>0, :dpr=>"auto", :crop=>"fill"}])}');"}
+
   .banner-content
     %h1.logo-font-respira.fadeInRightBig.animated respira
     %p.normal.fadeInLeftBig.animated
       = t '.subtitle_1'
       %br/
       = t '.subtitle_2'
-    %p
-      %a#btn-black.btn.btn-lg.btn-default.btn-animated{:href => "#footer"}
-        = t '.subscribe'
-        %i.fa.fa-arrow-right.pl-20
   .col-md-12.text-center.banner-arrow
     %a.btn.btn-lg.moving.smooth-scroll{:href => "#what"}
       %i.icon-down-open-big
@@ -39,9 +35,8 @@
             .col-sm-8
               %h1.title
                 = t 'pages.what.cta1'
-              %p
+              %p{style: "margin-top: 20px"}
                 = t 'pages.what.get_notified'
-                \!
             .col-sm-4
               %br/
               %p

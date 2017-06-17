@@ -1,0 +1,26 @@
+.container
+  .row
+    .col-md-8.col-md-offset-2
+      %h2.text-center
+        %strong
+          = t '.our_partners'
+      .separator
+  .row
+    .col-sm-12
+      .owl-carousel.carousel-autoplay{ style: "margin: 50px 0 50px 0" }
+        .client
+          %a{:href => "http://ffwdlondon.com/"}
+            = cl_image_tag("respira/ffwd.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 30px")
+        .client
+          %a{:href => "http://www.londonandpartners.com/"}
+            = cl_image_tag("respira/london.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 60px")
+        .client
+          %a{:href => "http://www.medcityhq.com/"}
+            = cl_image_tag("respira/medcity.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 40px")
+        .client
+          %a{:href => "http://stammertrust.co.uk/"}
+            = cl_image_tag("respira/stammer_trust.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 60px")
+        .client
+          %a{:href => "https://www.newable.co.uk/"}
+            = cl_image_tag("respira/newable.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 70px")
+      .separator

@@ -3,6 +3,7 @@
 
 <!-- section -->
 			<!-- ================ -->
+			<% if I18n.locale == :en  %>
 			<section class="pv-30">
 				<div class="container">
 					<div class="row">
@@ -19,22 +20,13 @@
 								<div class="tab-content">
 									<div role="tabpanel" class="tab-pane fade in active" id="home">
                     <div class="embed-responsive embed-responsive-16by9">
-                      <% if I18n.locale == :ea  %>
-                      <iframe width="750" height="425" src="https://www.youtube.com/embed/Dj4nn4nZnc8" frameborder="0" allowfullscreen></iframe>
-                      <% else  %>
-                      <iframe width="750" height="425" src="https://www.youtube.com/embed/UodA9XdKQkE" frameborder="0" allowfullscreen></iframe>
-                      <% end %>
+												<iframe width="853" height="480" src="https://www.youtube.com/embed/dRY6_LDIwpw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
                     </div>
 									</div>
 									<div role="tabpanel" class="tab-pane fade smooth-scroll" id="messages">
                     <p> <strong> <%= t '.why_1' %> </strong> 
                     <p>
-                    <%= t '.why_2' %>
-                    <br>
-                    <br>
-                    <%= t '.why_3' %> <a href="#footer"><%= t '.here' %></a>. <%= t '.why_4' %> 
-                    <br>
-                    <br>
+                    <%= t '.why_2_html' %>
                     <%= t '.why_5' %> <a href="https://www.youtube.com/watch?v=pq1qqdxZWbc&list=PLJj-2-ZfLCt8_d1_vyt_g6mWAmKnoVwyt"><%= t '.here' %></a> <%= t '.why_6' %>   
                     </p>
                   </div>
@@ -46,6 +38,7 @@
 				<br>
 			</section>
 			<!-- section end -->
+			<% end %>
 
 <!-- section -->
 <!-- ================ -->

@@ -94,19 +94,20 @@ en:
       here: here
       what: What
       why: Why
-      why_1: Why do we need your help?
-      why_2: More than 70 million people stutter worldwide, about 1% of the population.
-        Our mission is to help this community to live a better life.
-      why_3: Please help by subscribing
-      why_4: Let’s show the world that PWS have a voice and this project is worth
-        pursuing!
-      why_5: "(See"
+      why_1: Why are we doing this?
+      why_2_html: More than 70 million people stutter worldwide, about 1% of the population. Our mission is to research and help this community to live a better life.<br><br> Most people who stutter (PWS) live in chronic fear and anxiety, as they do not know when a word or utterance will block their speech. The inability PWS to express themselves leads to feelings of shame and despair, as they feel that their capacity to communicate eloquently and articulately is impaired.<br><br>
+        These feelings significantly affect the life choices and opportunities of PWS, who usually seek out roles and activities with a limited amount of face-to-face interaction. This has a profound impact on their professional and social life, as the fear of stuttering dictates their life choices.<br><br>
+        An example of the pain that PWS undergoes can be seen from <a href="http://dominicbarkertrust.org.uk/">The Donimic Baker Trust</a>, a charity organisation for research into stuttering which was funded in memory of Donimic Baker for whom the burden of stammering was so great that he took his own life.<br><br>
+        Most of us take for granted the ability to use the telephone, to ask for what we need when shopping, or to answer questions at a job interview. But people who stammer frequently struggle to make themselves understood - by those who do not recognise the difficulties and frustrations of stammering. <br><br> 
+      why_3: 
+      why_4: 
+      why_5: "See"
       why_6: some life-changing results in PWS who have attended courses that teach
-        the techniques integrated into Respira)
+        the techniques integrated into Respira
   shared:
     footer:
       cta1: Get notified when it's released
-      cta2: We will let you know.
+      cta2: We will let you know
       footer_summary_1: More than 70 million people stutter worldwide, about 1% of
         the population. Our mission is to help this community to live a better life.
       footer_summary_2: Please send us an email if you would like to speak to us or

@@ -1,7 +1,7 @@
 :scss
 
   .picture {
-    height: 250px !important;
+    margin-top:20px;
   }
 
 
@@ -77,8 +77,8 @@
               .panel-body
                 = t '.info_6'
         / accordion end
-      .col-md-push-1.col-md-4.space-bottom
-        = cl_image_tag("respira/dashboard.png", :class => "picture", :client_hints=>true, :transformation=>[{:dpr=>"auto"}])
+      .col-md-6
+        = cl_image_tag("respira/dashboard_mobile1.png", :class => "picture", :client_hints=>true, :transformation=>[{:dpr=>"auto"}])
   .row
     .col-xs-12.col-md-push-2.col-md-4
       .style-2.mb-20.shadow.bordered.light-gray-bg.text-center

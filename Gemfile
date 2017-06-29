@@ -34,6 +34,7 @@ gem 'rails_admin', '>= 1.0.0.rc'
 gem 'remotipart', github: 'mshibuya/remotipart'
 
 gem 'pundit', '~> 1.1'
+gem 'postmark'
 
 gem 'faker', '~> 1.7'
 

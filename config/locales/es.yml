@@ -92,8 +92,8 @@ es:
       time_5_h2: Patente presentada
       time_5_p: El primer dispositivo de este tipo, presentamos la patente para Respira
         (GB1701052.1)
-      time_6_h2: Campaña de crowdfunding!
-      time_6_p: Respira está planeando una campaña de crowfunding.
+      time_6_h2: Inversion recibida
+      time_6_p_html: The government of United Kingdom offers us a grant, via to <a href="https://innovateuk.blog.gov.uk/">InnovateUK</a>, to develop further Respira.
     what:
       cta1: Toma el control de tu respiración y de tu habla
       get_notified: Notifícame cuando Respira esté a la venta

@@ -86,8 +86,8 @@ en:
       time_5_h2: Patent Filed
       time_5_p: Respira patent is filed (GB1701052.1), as the first product of its
         kind.
-      time_6_h2: Crowdfunding Campaign coming up!
-      time_6_p: Respira is planning to run a crowdfunding camping.
+      time_6_h2: Project Funded
+      time_6_p_html: El gobierno de el Reino Unido nos ofrece una beca, a través de <a href="https://innovateuk.blog.gov.uk/">InnovateUK</a>, para desarrollar Respira.
     what:
       cta1: Take control of your breathing and speaking habits
       get_notified: Get notified when it's released

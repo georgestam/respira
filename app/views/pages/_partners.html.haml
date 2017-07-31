@@ -7,10 +7,21 @@
       .separator
   .row
     .col-sm-12
-      .owl-carousel.carousel-autoplay{ style: "margin: 50px 0 50px 0" }
+      .owl-carousel.carousel-autoplay{ style: "margin: 0 0 50px 0" }
         .client
           %a{:href => "http://ffwdlondon.com/"}
-            = cl_image_tag("respira/ffwd.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 30px")
+            = cl_image_tag("respira/ffwd.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 30px; margin-top: 30px")
+        .client
+          %a{:href => "https://www.stammering.org/"}
+            = cl_image_tag("respira/bsa.gif", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 100px; margin: 0 0 0 30px")
+        .client
+          %a{:href => "https://innovateuk.blog.gov.uk/"}
+            = cl_image_tag("respira/innovateUK.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 60px; margin: 20px 0 0 30px")
+        .client
+          %a{:href => "http://www.reading.ac.uk/"}
+            = cl_image_tag("respira/UoR.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 60px; margin: 20px 0 0 30px")
+    .col-sm-12
+      .owl-carousel.carousel-autoplay{ style: "margin: 0 0 0 0" }
         .client
           %a{:href => "http://www.londonandpartners.com/"}
             = cl_image_tag("respira/london.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], style: "height: 60px")

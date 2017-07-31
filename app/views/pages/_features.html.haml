@@ -17,7 +17,7 @@
             .image-box.style-2.mb-20.shadow.bordered.light-gray-bg.text-center
               .overlay-container
                 = cl_image_tag("respira/shirt.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto", :height=>1350, :width=>2000, :y=>0, :x=>400, :crop=>"crop"}])
-                .overlay-to-top
+                -# .overlay-to-top
                   %p.small.margin-clear
                     %em
                       = t '.feature_hidden_1'
@@ -31,7 +31,7 @@
             .image-box.style-2.mb-20.shadow.bordered.light-gray-bg.text-center
               .overlay-container
                 = cl_image_tag("respira/Natural.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto", :height=>1400, :width=>2000, :y=>-50, :x=>500, :crop=>"crop"}])
-                .overlay-to-top
+                -# .overlay-to-top
                   %p.small.margin-clear
                     %em
                       = t '.feature_hidden_2'
@@ -45,7 +45,7 @@
             .image-box.style-2.mb-20.shadow.bordered.light-gray-bg.text-center
               .overlay-container
                 = cl_image_tag("respira/mobile.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto", :height=>1350, :width=>2000, :y=>100, :x=>150, :crop=>"crop"}])
-                .overlay-to-top
+                -# .overlay-to-top
                   %p.small.margin-clear
                     %em
                       = t '.feature_hidden_3'

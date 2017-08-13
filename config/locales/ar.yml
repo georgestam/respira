@@ -83,6 +83,8 @@ ar:
         Rowan. We started working on the prototype.
       time_3_h2: First Prototype completed
       time_3_p: First Prototype completed and tested, demostrating the Respira concept.
+      time_3_p_html: First Prototype completed and tested, demostrating the Respira
+        concept. You can watch a video of our prototype <a href="https://www.youtube.com/watch?v=naURFZwQYSk&t">here</a>.
       time_4_h2: Terence Barry Grant Award
       time_4_p: awarded a small grant to support Respira, which will help Treatment
         and Research into Stammering.
@@ -91,15 +93,41 @@ ar:
         kind.
       time_6_h2: Crowdfunding Campaign coming up!
       time_6_p: Respira is planning to run a crowdfunding camping.
+      time_6_p_html: El gobierno de el Reino Unido nos ofrece una beca, a través de
+        <a href="https://innovateuk.blog.gov.uk/">InnovateUK</a>, para desarrollar
+        Respira.
     what:
       cta1: Take control of your breathing and speaking habits
       get_notified: Get notified when it's released
       here: here
+      research: Research
+      research_html: Research html
+      reserach_1: Reserach 1
       what: What
       why: Why
       why_1: Why do we need your help?
       why_2: More than 70 million people stutter worldwide, about 1% of the population.
         Our mission is to help this community to live a better life.
+      why_2_html: More than 70 million people stutter worldwide, this is about 1%
+        of the population. Our mission is to help these people to live a better life.<br><br>
+        Most people who stutter (PWS) live in chronic fear and anxiety, as they do
+        not know when a word or utterance will block their speech. The inability of
+        PWS to express themselves leads to feelings of shame and despair, as they
+        feel that their capacity to communicate eloquently and articulately is impaired.
+        These feelings significantly affect the life choices and opportunities of
+        PWS, who usually seek out roles and activities with a limited amount of face-to-face
+        interaction. This has a profound impact on their professional and social life,
+        as the fear of stuttering dictates their life choices.<br><br> Most of us
+        take for granted the ability to use the telephone, to ask for what we need
+        when shopping, or to answer questions at a job interview. But people who stammer
+        frequently struggle to make themselves understood by those who do not recognise
+        the difficulties and frustrations of stammering. <br><br> Speech and language
+        therapists help PWS to gain fluency and reach articulation levels similar
+        to that of a non-stutterer by the use of a series of techniques. We have developed
+        a wearable device that tracks speech and breathing patterns, providing real-time
+        feedback to help turn those techniques into habits. We have also lunched <a
+        href="https://www.openicebergs.com/">Open Icebergs</a>, which is an online
+        community platform that help PWS to learn about each other.<br><br>
       why_3: Please help by subscribing
       why_4: Let’s show the world that PWS have a voice and this project is worth
         pursuing!

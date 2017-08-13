@@ -16,6 +16,7 @@ gem 'jquery-rails'
 gem 'sass-rails'
 gem 'simple_form'
 gem 'uglifier'
+gem 'i18n-tasks', '~> 0.9.17'
 
 gem 'cloudinary'
 gem 'fontello_rails_converter'

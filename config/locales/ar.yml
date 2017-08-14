@@ -72,9 +72,6 @@ ar:
       subtitle_2: It tracks speech and breathing to improve lives
     partners:
       our_partners: Our partners
-    team:
-      our_parterns: Our parterns
-      our_partners: Partnerships
     timeline:
       time_1_h2: Respira ‘idea’ is born
       time_1_p: Jordi and Marcos come up with the idea of Respira.
@@ -82,7 +79,6 @@ ar:
       time_2_p: The team behind Respira is formed with the addition of Dimitri and
         Rowan. We started working on the prototype.
       time_3_h2: First Prototype completed
-      time_3_p: First Prototype completed and tested, demostrating the Respira concept.
       time_3_p_html: First Prototype completed and tested, demostrating the Respira
         concept. You can watch a video of our prototype <a href="https://www.youtube.com/watch?v=naURFZwQYSk&t">here</a>.
       time_4_h2: Terence Barry Grant Award
@@ -92,10 +88,13 @@ ar:
       time_5_p: Respira patent is filed (GB1701052.1), as the first product of its
         kind.
       time_6_h2: Crowdfunding Campaign coming up!
-      time_6_p: Respira is planning to run a crowdfunding camping.
       time_6_p_html: El gobierno de el Reino Unido nos ofrece una beca, a través de
         <a href="https://innovateuk.blog.gov.uk/">InnovateUK</a>, para desarrollar
         Respira.
+      time_7_h2: Time 7 h2
+      time_7_p_html: We start the recruitment of the participants to try our first
+        prototypes via the <a href="https://www.stammering.org">British Stammering
+        Association</a> website.
     what:
       cta1: Take control of your breathing and speaking habits
       get_notified: Get notified when it's released
@@ -106,8 +105,6 @@ ar:
       what: What
       why: Why
       why_1: Why do we need your help?
-      why_2: More than 70 million people stutter worldwide, about 1% of the population.
-        Our mission is to help this community to live a better life.
       why_2_html: More than 70 million people stutter worldwide, this is about 1%
         of the population. Our mission is to help these people to live a better life.<br><br>
         Most people who stutter (PWS) live in chronic fear and anxiety, as they do
@@ -128,9 +125,6 @@ ar:
         feedback to help turn those techniques into habits. We have also lunched <a
         href="https://www.openicebergs.com/">Open Icebergs</a>, which is an online
         community platform that help PWS to learn about each other.<br><br>
-      why_3: Please help by subscribing
-      why_4: Let’s show the world that PWS have a voice and this project is worth
-        pursuing!
       why_5: "(See"
       why_6: some life-changing results in PWS who have attended courses that teach
         the techniques integrated into Respira)

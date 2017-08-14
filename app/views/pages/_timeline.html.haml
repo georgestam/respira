@@ -1,0 +1,138 @@
+%body
+  #timeline
+  / main-container start
+  / ================
+  %section.main-container
+    .container
+      .row
+        .main.col-md-12
+          .timeline.clearfix
+            / timeline grid item start
+            .timeline-item.pull-right
+              / blogpost start
+              %article.blogpost.shadow.light-gray-bg.bordered.object-non-visible{"data-animation-effect" =>"fadeInUpSmall", "data-effect-delay" => "100"}
+                = cl_image_tag("respira/gov-logo.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}], class: "large-picture-time")
+                %header
+                  %h2
+                    = t '.time_6_h2'
+                  .post-info
+                    %span.post-date
+                      %i.icon-calendar
+                      %span.month 8/2017
+                .blogpost-content
+                  %p
+                    = t '.time_6_p_html'
+                %footer.clearfix
+            / timeline grid item start
+            .timeline-item
+              / blogpost start
+              %article.blogpost.shadow.light-gray-bg.bordered.object-non-visible{"data-animation-effect" => "fadeInUpSmall", "data-effect-delay" => "100"}
+                .overlay-container
+                  = cl_image_tag("respira/bsa.gif", :client_hints=>true, :transformation=>[{:width=>600, :height=>400, :dpr=>"auto", :crop=>"fill"}])
+                  %a.overlay-link{:href => "https://www.stammering.org/speaking-out/article/respira-digital-coach-breathing-techniques"}
+                    %i.fa.fa-link
+                %header
+                  %h2
+                    = t '.time_7_h2'
+                  .post-info
+                    %span.post-date
+                      %i.icon-calendar
+                      %span.month 10/2018
+                .blogpost-content
+                  %p
+                    = t '.time_7_p'
+                %footer.clearfix
+            / timeline grid item start
+            .timeline-item
+              / blogpost start
+              %article.blogpost.shadow.light-gray-bg.bordered.object-non-visible{"data-animation-effect" => "fadeInUpSmall", "data-effect-delay" => "100"}
+                .overlay-container
+                  = cl_image_tag("respira/patent1.png", :client_hints=>true, :transformation=>[{:width=>600, :height=>400, :dpr=>"auto", :crop=>"fill"}])
+                  %a.overlay-link{:href => "https://www.ipo.gov.uk/p-journal/p-pj/p-pj?lastResult=40&perPage=10&startYear=2017&startMonth=March&startDay=08th+-+6668&endYear=2017&endMonth=March&endDay=08th+-+6668&filter=&sort=Applicant&status=undefined"}
+                    %i.fa.fa-link
+                %header
+                  %h2
+                    = t '.time_5_h2'
+                  .post-info
+                    %span.post-date
+                      %i.icon-calendar
+                      %span.month 1/2017
+                .blogpost-content
+                  %p
+                    = t '.time_5_p'
+                %footer.clearfix
+            .timeline-date-label.clearfix 2017
+            .timeline-item
+              / blogpost start
+              %article.blogpost.shadow.light-gray-bg.bordered.object-non-visible{"data-animation-effect" => "fadeInUpSmall", "data-effect-delay" => "100"}
+                .overlay-container
+                  = cl_image_tag("respira/Screen_Shot_2017-01-12_at_15.51.18.png", :client_hints=>true, :transformation=>[{:width=>800, :height=>200, :dpr=>"auto", :crop=>"fill"}])
+                  %a.overlay-link{:href => "http://stammertrust.co.uk/wp-content/uploads/2017/04/Newsletter-Spring-2017-Iss-110_eVersion.pdf"}
+                    %i.fa.fa-link
+                %header
+                  %h2
+                    = t '.time_4_h2'
+                  .post-info
+                    %span.post-date
+                      %i.icon-calendar
+                      %span.month 12/2016
+                .blogpost-content
+                  %p
+                    %a{:href => "http://stammertrust.co.uk/wp-content/uploads/2017/04/Newsletter-Spring-2017-Iss-110_eVersion.pdf"} Stammer Trust
+                    = t '.time_4_p'
+                %footer.clearfix
+            .timeline-item.pull-right
+              / blogpost start
+              %article.blogpost.shadow.light-gray-bg.bordered.object-non-visible{"data-animation-effect" => "fadeInUpSmall", "data-effect-delay" => "100"}
+                .embed-responsive.embed-responsive-16by9
+                  / <iframe src="https://player.vimeo.com/video/191140085" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                  / <p><a href="https://vimeo.com/191140085"></a>  <a href="https://vimeo.com/user46527374"></a><a href="https://vimeo.com"></a>.</p>
+                  = cl_image_tag("respira/belt_only.jpg", :client_hints=>true, :transformation=>[{:dpr=>"auto", :crop=>"fill"}])
+                  %a.overlay-link{:href => "#"}
+                    %i.fa.fa-link
+                %header
+                  %h2
+                    = t '.time_3_h2'
+                  .post-info
+                    %span.post-date
+                      %i.icon-calendar
+                      %span.month 10/2016
+                .blogpost-content
+                  %p
+                    = t '.time_3_p_html'
+                %footer.clearfix
+            .timeline-item
+              / blogpost start
+              %article.blogpost.shadow.light-gray-bg.bordered
+                = cl_image_tag("respira/team.png", :client_hints=>true, :transformation=>[{:dpr=>"auto"}])
+                %header
+                  %h2
+                    = t '.time_2_h2'
+                  .post-info
+                    %span.post-date
+                      %i.icon-calendar
+                      %span.month 8/2016
+                .blogpost-content
+                  %p
+                    = t '.time_2_p'
+                %footer.clearfix
+            / timeline grid item start
+            .timeline-item.pull-right
+              / blogpost start
+              %article.blogpost.shadow.light-gray-bg.bordered
+                / Indicators
+                / Wrapper for slides
+                = cl_image_tag("respira/idea1.png", :client_hints=>true, :transformation=>[{:width=>800, :height=>400, :dpr=>"auto", :crop=>"fill"}])
+                %header
+                  %h2
+                    = t '.time_1_h2'
+                  .post-info
+                    %span.post-date
+                      %i.icon-calendar
+                      / <span class="day">12</span>
+                      %span.month 6/2016
+                .blogpost-content
+                  %p
+                    = t '.time_1_p'
+            .timeline-date-label.clearfix 2016
+

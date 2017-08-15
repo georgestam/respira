@@ -28,7 +28,7 @@
               / blogpost start
               %article.blogpost.shadow.light-gray-bg.bordered.object-non-visible{"data-animation-effect" => "fadeInUpSmall", "data-effect-delay" => "100"}
                 .overlay-container
-                  = cl_image_tag("respira/bsa.gif", :client_hints=>true, :transformation=>[{:width=>600, :height=>400, :dpr=>"auto", :crop=>"fill"}])
+                  = cl_image_tag("respira/bsa.gif", :client_hints=>true,  :transformation=>[{:width=>2500, :height=>600, x: "0", y: "0", :dpr=>"auto", :crop=>"crop"}], style: "height: 200px")
                   %a.overlay-link{:href => "https://www.stammering.org/speaking-out/article/respira-digital-coach-breathing-techniques"}
                     %i.fa.fa-link
                 %header

@@ -72,9 +72,6 @@ en:
       subtitle_2: It tracks speech and breathing to improve lives
     partners:
       our_partners: Partners
-    team:
-      our_parterns: Our parterns
-      our_partners: Partnerships
     timeline:
       time_1_h2: Respira ‘idea’ is born
       time_1_p: Jordi and Marcos come up with the idea of Respira.
@@ -82,8 +79,6 @@ en:
       time_2_p: The team behind Respira is formed with the addition of Dimitri and
         Rowan. We started working on the prototype.
       time_3_h2: First Prototype completed
-      time_3_p: Creamos y probamos con éxito el primer prototipo, demostrando el concepto
-        de Respira.
       time_3_p_html: First Prototype completed and tested, demostrating the Respira
         concept. You can watch a video of our prototype <a href="https://www.youtube.com/watch?v=naURFZwQYSk&t">here</a>.
       time_4_h2: Terence Barry Grant Award
@@ -93,23 +88,28 @@ en:
       time_5_p: Respira patent is filed (GB1701052.1), as the first product of its
         kind.
       time_6_h2: Project Funded
-      time_6_p: Respira is planning to run a crowdfunding camping.
       time_6_p_html: El gobierno de el Reino Unido nos ofrece una beca, a través de
         <a href="https://innovateuk.blog.gov.uk/">InnovateUK</a>, para desarrollar
         Respira.
+      time_7_h2: Beta program
+      time_7_p_html: We start the recruitment of the participants to try our first
+        prototypes via the <a href="https://www.stammering.org">British Stammering
+        Association</a> website.
     what:
       cta1: Take control of your breathing and speaking habits
       get_notified: Get notified when it's released
       here: here
       research: Research
-      research_html: We believe that scientific research is essential to provide evidence of the efficacy of new technologies.<br><br>
-        The techniques included in our wearable device have been demonstrated to be effective in several studies, as explained in <a href="https://www.stammering.org/speaking-out/article/respira-digital-coach-breathing-techniques">this article</a>, that we recently published in the website of the <a href="https://www.stammering.org/">British Stammering Association</a>.
+      research_html: We believe that scientific research is essential to provide evidence
+        of the efficacy of new technologies.<br><br> The techniques included in our
+        wearable device have been demonstrated to be effective in several studies,
+        as explained in <a href="https://www.stammering.org/speaking-out/article/respira-digital-coach-breathing-techniques">this
+        article</a>, that we recently published in the website of the <a href="https://www.stammering.org/">British
+        Stammering Association</a>.
       reserach_1: What we do believe in?
       what: What
       why: Why
       why_1: Why are we doing this?
-      why_2: Más de 70 millones de personas tartamudea en todo el mundo. Un 1% de
-        la población. Nuestra misión es ayudar a esta comunidad a mejorar sus vidas.
       why_2_html: More than 70 million people stutter worldwide, this is about 1%
         of the population. Our mission is to help these people to live a better life.<br><br>
         Most people who stutter (PWS) live in chronic fear and anxiety, as they do
@@ -130,9 +130,6 @@ en:
         feedback to help turn those techniques into habits. We have also lunched <a
         href="https://www.openicebergs.com/">Open Icebergs</a>, which is an online
         community platform that help PWS to learn about each other.<br><br>
-      why_3: Ayúdanos y subscribeté
-      why_4: Demostrarás al mundo que las personas con tratumedeo tienen voz y que
-        merece la pena apoyar este proyecto!
       why_5: See
       why_6: some life-changing results in PWS who have attended courses that teach
         the techniques integrated into Respira

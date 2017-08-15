@@ -78,17 +78,12 @@ es:
       subtitle_2: Monitoriza tus patrones de habla y respiración para cambiar tu vida
     partners:
       our_partners: Colaboradores
-    team:
-      our_parterns: Our parterns
-      our_partners: Partnerships
     timeline:
       time_1_h2: Nace la idea de Respira
       time_1_p: Jordi y Marcos conciben la idea de Respira.
       time_2_h2: Creación del equipo
       time_2_p: Dimitri y Rowan se unen al equipo. Empezamos a trabajar en el prototipo.
       time_3_h2: Primer prototipo
-      time_3_p: Creamos y probamos con éxito el primer prototipo, demostrando el concepto
-        de Respira.
       time_3_p_html: First Prototype completed and tested, demostrating the Respira
         concept. You can watch a video of our prototype <a href="https://www.youtube.com/watch?v=naURFZwQYSk&t">here</a>.
       time_4_h2: Beca "Terence Barry"
@@ -98,23 +93,28 @@ es:
       time_5_p: El primer dispositivo de este tipo, presentamos la patente para Respira
         (GB1701052.1)
       time_6_h2: Inversion recibida
-      time_6_p: Respira is planning to run a crowdfunding camping.
       time_6_p_html: The government of United Kingdom offers us a grant, via to <a
         href="https://innovateuk.blog.gov.uk/">InnovateUK</a>, to develop further
         Respira.
+      time_7_h2: Beta program
+      time_7_p_html: Comenzamos el reclutamiento de los participantes para probar nuestro primeros
+        prototipos a través de la <a href="https://www.stammering.org"> Asociación Británica de Tartamudeo
+        </a>.
     what:
       cta1: Toma el control de tu respiración y de tu habla
       get_notified: Notifícame cuando Respira esté a la venta
       here: Aquí
       research: investigación
-      research_html: Creemos que la investigación científica es esencial para evidenciar la eficacia de las nuevas tecnologías.
-        Las técnicas incluidas en nuestro dispositivo usable han demostrado ser eficaces en varios estudios, como se explica en <a href = "https://www.stammering.org/speaking-out/article/respira-digital-coach-breathing-techniques "> Este artículo </a>, que hemos publicado recientemente en el sitio web de la <a href="https://www.stammering.org/"> British Stammering Association </a>
-      reserach_1: ¿En qué creemos?
+      research_html: Creemos que la investigación científica es esencial para evidenciar
+        la eficacia de las nuevas tecnologías. Las técnicas incluidas en nuestro dispositivo
+        usable han demostrado ser eficaces en varios estudios, como se explica en
+        <a href = "https://www.stammering.org/speaking-out/article/respira-digital-coach-breathing-techniques
+        "> Este artículo </a>, que hemos publicado recientemente en el sitio web de
+        la <a href="https://www.stammering.org/"> British Stammering Association </a>
+      reserach_1: "¿En qué creemos?"
       what: Qué?
       why: Por qué?
       why_1: Por qué necesitamos tu ayuda?
-      why_2: Más de 70 millones de personas tartamudea en todo el mundo. Un 1% de
-        la población. Nuestra misión es ayudar a esta comunidad a mejorar sus vidas.
       why_2_html: More than 70 million people stutter worldwide, this is about 1%
         of the population. Our mission is to help these people to live a better life.<br><br>
         Most people who stutter (PWS) live in chronic fear and anxiety, as they do
@@ -135,9 +135,6 @@ es:
         feedback to help turn those techniques into habits. We have also lunched <a
         href="https://www.openicebergs.com/">Open Icebergs</a>, which is an online
         community platform that help PWS to learn about each other.<br><br>
-      why_3: Ayúdanos y subscribeté
-      why_4: Demostrarás al mundo que las personas con tratumedeo tienen voz y que
-        merece la pena apoyar este proyecto!
       why_5: "(Consulta"
       why_6: algunos de las experiencias que han cambiado la vida de personas con
         tartamudeo que atendieron cursos que usan la técnicas integradas en Respira)

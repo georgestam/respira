@@ -5,6 +5,12 @@ AllCops:
   UseCache: false
 Rails:
   Enabled: true
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+Metrics/ParameterLists:
+  Enabled: false
+Rails/LexicallyScopedActionFilter:
+  Enabled: false
 Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 Style/TernaryParentheses:

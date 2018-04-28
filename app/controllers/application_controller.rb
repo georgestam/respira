@@ -19,11 +19,11 @@ class ApplicationController < ActionController::Base
     devise_parameter_sanitizer.permit(:account_update, keys: [:name])
   end
 
-  def skip_pundit? #  Pundit
+  def skip_pundit?
     devise_controller? || params[:controller] =~ /(^(rails_)?admin)|(^pages$)/
   end
 
-  def set_locale #  i18n
+  def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
   end
 

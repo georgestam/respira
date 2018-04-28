@@ -5,6 +5,8 @@ AllCops:
   UseCache: false
 Rails:
   Enabled: true
+Rails/UnknownEnv:
+  Enabled: false
 Naming/UncommunicativeMethodParamName:
   Enabled: false
 Metrics/ParameterLists:

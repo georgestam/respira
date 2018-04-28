@@ -6,33 +6,33 @@ RailsAdmin.config do |config|
       field :description, :ck_editor
       field :private, :boolean
       field :photo, :carrierwave
-      field :locale, :enum do 
+      field :locale, :enum do
         enum_method do
           :locale_enum
-        end  
+        end
       end
     end
   end
-  
+
   config.model Story do
     edit do
       field :title, :string
       field :description, :ck_editor
       field :private, :boolean
       field :photo, :carrierwave
-      field :locale, :enum do 
+      field :locale, :enum do
         enum_method do
           :locale_enum
-        end  
+        end
       end
     end
   end
-  
+
   config.authenticate_with do
     warden.authenticate! scope: :user
   end
   config.current_user_method(&:current_user)
-  
+
   config.authorize_with :pundit
 
   config.actions do
@@ -49,7 +49,7 @@ RailsAdmin.config do |config|
   end
 
   config.authorize_with do |controller|
-    redirect_to main_app.root_path unless current_user && current_user.admin
+    redirect_to main_app.root_path unless current_user&.admin
   end
 
 end

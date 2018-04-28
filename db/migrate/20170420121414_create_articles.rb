@@ -5,11 +5,10 @@ class CreateArticles < ActiveRecord::Migration[5.0]
       t.string :description
       t.string :locale
       t.string :slug, null: false
-      
+
       t.boolean :private, default: true
 
       t.timestamps
     end
   end
 end
-

@@ -1,14 +1,19 @@
 AllCops:
-  TargetRubyVersion: 2.4
+  TargetRubyVersion: 2.5
   Exclude:
     - "db/schema.rb"
-    - "lib/generators/kuina_mailer/*"
   UseCache: false
 Rails:
   Enabled: true
-Style/EmptyLinesAroundBlockBody:
+Rails/UnknownEnv:
   Enabled: false
-Style/TrailingWhitespace:
+Naming/UncommunicativeMethodParamName:
+  Enabled: false
+Metrics/ParameterLists:
+  Enabled: false
+Rails/LexicallyScopedActionFilter:
+  Enabled: false
+Layout/EmptyLinesAroundBlockBody:
   Enabled: false
 Style/TernaryParentheses:
   Enabled: false
@@ -24,31 +29,29 @@ Style/Documentation:
   Enabled: false
 Lint/AmbiguousOperator:
   Enabled: false
-Style/TrailingBlankLines:
-  Enabled: false
 Style/RedundantSelf:
   Enabled: false
 Style/StringLiteralsInInterpolation:
   Enabled: false
-Style/SpaceAroundEqualsInParameterDefault:
+Layout/SpaceAroundEqualsInParameterDefault:
   Enabled: false
 Style/MethodDefParentheses:
   Enabled: false
-Lint/Eval:
+Security/Eval:
   Enabled: false
 Style/BlockDelimiters:
   Enabled: false
-Style/SpaceBeforeBlockBraces:
+Layout/SpaceBeforeBlockBraces:
   Enabled: false
 Style/ClassVars:
   Enabled: false
 Style/EmptyElse:
   Enabled: false
-Style/SpaceInsideBlockBraces:
+Layout/SpaceInsideBlockBraces:
   Enabled: false
 Lint/Debugger:
   Enabled: false
-tyle/EmptyLinesAroundClassBody:
+Layout/EmptyLinesAroundClassBody:
   Enabled: false
 Rails/FindEach:
   Enabled: false
@@ -58,19 +61,23 @@ Metrics/AbcSize:
   Enabled: false
 Metrics/MethodLength:
   Enabled: false
-Style/EmptyLinesAroundMethodBody:
+Layout/EmptyLinesAroundMethodBody:
+  Enabled: false
+Rails/HasAndBelongsToMany:
+  Enabled: false
+Style/MixinUsage:
   Enabled: false
 Lint/UnusedBlockArgument:
   Enabled: false
 Style/MethodCallWithoutArgsParentheses:
   Enabled: false
-Style/SpaceInsideHashLiteralBraces:
+Layout/SpaceInsideHashLiteralBraces:
   Enabled: false
 Style/Proc:
   Enabled: false
-Style/DotPosition:
+Layout/DotPosition:
   Enabled: false
-Style/MultilineMethodCallIndentation:
+Layout/MultilineMethodCallIndentation:
   Enabled: false
 Style/Lambda:
   Enabled: false
@@ -80,23 +87,23 @@ Style/GuardClause:
   Enabled: false
 Style/IfUnlessModifier:
   Enabled: false
-Style/EmptyLinesAroundModuleBody:
+Layout/EmptyLinesAroundModuleBody:
   Enabled: false
 Style/BracesAroundHashParameters:
   Enabled: false
-Style/ExtraSpacing:
+Layout/ExtraSpacing:
   Enabled: false
 Lint/UnderscorePrefixedVariableName:
   Enabled: false
 Metrics/BlockLength:
   Enabled: false
-Style/IndentationWidth:
+Layout/IndentationWidth:
   Enabled: false
-Style/ElseAlignment:
+Layout/ElseAlignment:
   Enabled: false
 Style/ColonMethodCall:
   Enabled: false
-Lint/EndAlignment:
+Layout/EndAlignment:
   Enabled: false
 Style/EmptyMethod:
   Enabled: false
@@ -112,7 +119,7 @@ Metrics/PerceivedComplexity:
   Enabled: false
 Lint/UnneededSplatExpansion:
   Enabled: false
-Style/IndentHash:
+Layout/IndentHash:
   Enabled: false
 Rails/OutputSafety:
   Enabled: false
@@ -122,15 +129,13 @@ Metrics/ModuleLength:
   Enabled: false
 Metrics/ClassLength:
   Enabled: false
-Lint/LiteralInCondition:
-  Enabled: false
 Style/NestedTernaryOperator:
   Enabled: false
-Style/MultilineOperationIndentation:
+Layout/MultilineOperationIndentation:
   Enabled: false
 Style/Semicolon:
   Enabled: false
-Style/VariableNumber:
+Naming/VariableNumber:
   Enabled: false
 Style/PercentLiteralDelimiters:
   Enabled: false
@@ -138,7 +143,13 @@ Style/NestedParenthesizedCalls:
   Enabled: false
 Lint/ParenthesesAsGroupedExpression:
   Enabled: false
-Style/AlignParameters:
+Layout/AlignParameters:
   Enabled: false
 Performance/RedundantMerge:
+  Enabled: false
+Lint/AmbiguousBlockAssociation:
+  Enabled: false
+Style/MethodMissing:
+  Enabled: false
+Lint/Loop:
   Enabled: false

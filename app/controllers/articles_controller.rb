@@ -1,8 +1,8 @@
 class ArticlesController < ApplicationController
-  
+
   skip_before_action :authenticate_user!, only: %i[index show]
   before_action :destroy_user_if_current_user, only: %i[index show]
-  
+
   def index
     @articles = Article.all
     policy_scope(Article)
@@ -18,5 +18,5 @@ class ArticlesController < ApplicationController
   def article_params
     params.require(:article).permit(:title, :description, :locale, :photo, :photo_cache)
   end
-    
+
 end
